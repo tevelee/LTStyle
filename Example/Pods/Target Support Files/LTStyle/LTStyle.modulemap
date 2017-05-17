@@ -1,0 +1,6 @@
+framework module LTStyle {
+  umbrella header "LTStyle-umbrella.h"
+
+  export *
+  module * { export * }
+}

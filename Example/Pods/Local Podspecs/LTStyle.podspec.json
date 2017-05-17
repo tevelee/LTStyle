@@ -1,0 +1,26 @@
+{
+  "name": "LTStyle",
+  "version": "0.1",
+  "summary": "LTStyle",
+  "description": "LTStyle",
+  "homepage": "http://github.com/tevelee/LTStyle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "László Teveli": "tevelee@gmail.com"
+  },
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "http://github.com/tevelee/LTStyle.git",
+    "tag": "0.1"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/Public/**/*.h"
+}
