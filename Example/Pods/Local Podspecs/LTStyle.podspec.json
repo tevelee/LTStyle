@@ -21,6 +21,19 @@
     "git": "http://github.com/tevelee/LTStyle.git",
     "tag": "0.1"
   },
-  "source_files": "Classes/**/*.{h,m}",
-  "public_header_files": "Classes/Public/**/*.h"
+  "subspecs": [
+    {
+      "name": "AttributedString",
+      "source_files": "Classes/AttributedString/**/*.{h,m}",
+      "public_header_files": "Classes/AttributedString/**/*.h"
+    },
+    {
+      "name": "Decorator",
+      "source_files": [
+        "Classes/Decorator/Public/**/*.{h,m}",
+        "Classes/Decorator/Private/**/*.{h,m}"
+      ],
+      "public_header_files": "Classes/Decorator/Public/**/*.h"
+    }
+  ]
 }

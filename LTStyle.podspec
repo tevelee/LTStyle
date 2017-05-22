@@ -19,6 +19,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "http://github.com/tevelee/LTStyle.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes/**/*.{h,m}"
-  s.public_header_files = "Classes/Public/**/*.h"
+  s.subspec 'AttributedString' do |ss|
+    ss.source_files  = "Classes/AttributedString/**/*.{h,m}"
+    ss.public_header_files = "Classes/AttributedString/**/*.h"
+  end
+
+  s.subspec 'Decorator' do |ss|
+    ss.source_files  = "Classes/Decorator/Public/**/*.{h,m}", "Classes/Decorator/Private/**/*.{h,m}"
+    ss.public_header_files = "Classes/Decorator/Public/**/*.h"
+  end
 end

@@ -48,12 +48,23 @@ static NSString* const kLTStyleAttributesKey = @"kLTStyleAttributesKey";
 
 + (instancetype)attributesWithBlock:(void(^)(LTStringAttributes* attributes))block
 {
-    LTStringAttributes* attributes = [self new];
-    
+    return [[self new] apply:block];
+}
+
+- (instancetype)apply:(void(^)(LTStringAttributes* attributes))block
+{
     if (block)
-        block(attributes);
+        block(self);
     
-    return attributes;
+    return self;
+}
+
+- (instancetype)merge:(LTStringAttributes *)attributes
+{
+    NSMutableDictionary* newAttributesDictionary = self.attributes.mutableCopy;
+    [newAttributesDictionary addEntriesFromDictionary:attributes.dictionaryRepresentation];
+    
+    return [self initWithDictionary:newAttributesDictionary];
 }
 
 #pragma mark - NSCoding

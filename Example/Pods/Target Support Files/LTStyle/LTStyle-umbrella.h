@@ -33,7 +33,6 @@
 #import "LTUITextFieldDecorator.h"
 #import "LTUITextViewDecorator.h"
 #import "LTUIViewDecorator.h"
-#import "LTUIViewDecorator_Private.h"
 
 FOUNDATION_EXPORT double LTStyleVersionNumber;
 FOUNDATION_EXPORT const unsigned char LTStyleVersionString[];

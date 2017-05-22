@@ -7,42 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01449DBE029FBB3EA0BECAC7E94E94CB /* LTUIControlDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EC5715ABFFA7949976F6BBC2498E19 /* LTUIControlDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		005539A61788D423F3731622F0B66402 /* LTUIControlDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC68DFE26EFE72940B45C6DB55A2A9 /* LTUIControlDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		03890D59600D45E6E9463700F9B11FFE /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0676595134A6036819E78D0404919486 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7DDD4A7CE0636458E013320B3DCFC2 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07FE614AE346C24980A3B1A66C89954E /* UITextView+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = C523AD2D4E7023DD3814374B14E279A9 /* UITextView+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083836E3A2A3EDEE786ADE1ADB75B9BA /* LTUILabelDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD3F59CE4D6065270573B9144471280 /* LTUILabelDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
+		0A3BB9B9F68B0873BF7E3F407D0BC6EC /* UIControl+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBCB9073BFC505517B301F5FF8A7DCA /* UIControl+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D3FBF37E9E7829108F70F4D5658918A /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */; };
 		0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FC59DAA6DFF27DF0C57F83AD7214596 /* UITextView+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8D5C78B126C1BB8530D4CC1A2918C /* UITextView+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1167DBED550AC31F57C83F3DB6B50C75 /* UIButton+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FF96D69AC5759171F2D46A07921575 /* UIButton+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11948E16BF3548C7BABF77C532966B84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */; };
-		1321335614E857C11497CCD742D66F53 /* LTUILabelDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE6FBC77170121E4E4E85392D9DCF1B /* LTUILabelDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		14499DF25AF206555D91FC9842F6B4B0 /* UILabel+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF0200B132064FA16974FE7180C6383 /* UILabel+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */; };
+		14BC698F98F5120FD2FE5AE5AFCE5DE5 /* UIButton+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F54AD475BABA2FFFB6BAB96056DF135 /* UIButton+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		19B6B108A674BD810C36A118644862C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
-		1B43BE7052B52B7DD313B22B62DAE16D /* LTUITextFieldDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = A403E7A699B8C5BDC81EEEA110153F75 /* LTUITextFieldDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF07BCA0644A408691ADAF28CB7DDC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1E4085EDE35CCBCBD92A2D36921807FD /* LTUILabelDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56C226C24B769EFB602F12170B89F4 /* LTUILabelDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1FC45584350F548161ED3C4FDBCE304E /* UIControl+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A13D7208CE14B1CEC724E5A763545 /* UIControl+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */; };
 		214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21B3DAADDCABBFDD03478CCBF5DE49D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
+		229F12FD380BC4DD043A2663284C5638 /* LTUILabelDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B44BD46F2CF22594B23C639D359E58B /* LTUILabelDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EB922994E481755E11E1859DDAD62E /* LTUIControlDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2626478739606617EC139FCD735D54FD /* LTUIControlDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		255345DF9F3F6DDC70B0ABAF2775324B /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */; };
 		26BBC63406C6863BE6DD27C64A70CB42 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 39686FFA13DAF68BB30B71BF78A974C3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A407C6AE8DEEFB9CE02C2B1A258260E /* LTUIViewDecorator_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEAEAB36F3BF2C243CEA5E68A7D8614 /* LTUIViewDecorator_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */; };
-		2DCC77E6D13F922EF7D06961691DAB83 /* LTStyle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F79A83872C7EB3439B10E28C8654A5 /* LTStyle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F177DF3DCE754ED05E7398635F76C7C /* UIImageView+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 863346C1CA52441120DDB4E5390F7FE4 /* UIImageView+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F26608B98E3653B67EE72134BCFAC63 /* LTUIButtonDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5395693BDF1411ECDF82FD68101E96 /* LTUIButtonDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = D417CB778FB662CFE79DB7FD9E6554A8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		339C94B64856F7779C0619BDA44AF3EA /* LTUITextViewDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F0ACB3301BBDBC0247875E76BBAAC6 /* LTUITextViewDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3484EBFBC11336E984FA9894EED9810A /* LTUIViewDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 763CE3D39077EF8C4422EB081733A526 /* LTUIViewDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		36CAF490622805DBE7533E376CA56C99 /* UIView+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8EA0BA3D789EA63860784FE0C26728 /* UIView+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3839B4A5CE9F446AB5F883AD6301BBE4 /* LTUIViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C78F14DD3DE85949562D7D98BD09B8 /* LTUIViewDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A20AA971ED3856300E38F44 /* LTUIButtonDecorations_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A20AA961ED3856300E38F44 /* LTUIButtonDecorations_Private.h */; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		474D47C1FBAF0BFDB2AD879F579DF816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
@@ -50,59 +53,52 @@
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A29BA8C3E774C364BD56A4AAFFF1E6AA /* UIApplication+StrictKeyWindow.m */; };
 		4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492FC085A8C0572E25EE46F06A51681E /* LTUILabelDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A834E56DCF725D31A46F7229CDFDAD1 /* LTUILabelDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4A571204986D316637D43D3F93DCAC77 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ACDB74DC2672498CBD3725DB33FD30D /* LTUIControlDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = C05F2437B323BA95664A9870945410DD /* LTUIControlDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C3DED42F983549AA628EB638DE44680 /* UIControl+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BF3EAF78D0A82039D538B8D7F1EB7 /* UIControl+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4C46940AEFC620E38505ECFA552AFBF0 /* LTUIViewDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FF5654A9400C68D31013D98FB7E66 /* LTUIViewDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4BA1AA249F74F133C7D70C245C3F4E53 /* LTUITextFieldDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = B391CEA613381ED009EAFBD434285F77 /* LTUITextFieldDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D52ADB4BEAEFA5BCC843314C8DE5694 /* LTUIControlDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3AD2E8EB60ABD3683FFBEC48974D43 /* LTUIControlDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA988155DB3F6CDDDE8EB083B473DAF /* LTUIButtonDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 041A745F6FFA34939B9202C5F407AF57 /* LTUIButtonDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECDE8F58F60C36F96F38533B715BD92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */; };
 		508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5386920B6032F8686000D909CFF26041 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */; };
+		567F28AE4B5552C4D7B9AE78706AEA2E /* LTUITextViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01E45FE23C6D90BA2D238EB7C6D4F2 /* LTUITextViewDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		57C1DAC24BEE6C12B29AAE68DD3EBEC7 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0529E4A817BCF5BF22ADA77866D0B7 /* FBSnapshotTestController.m */; };
-		5890438F2807CF98CA00EDB11657CF0F /* LTUITextViewDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = A18716E9E1EF876EFBB2183707790121 /* LTUITextViewDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		592B171651FCFD65BE248A6E75CD5DB7 /* LTUITextFieldDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5234E11B5C5F0DA94A0F2A2A85F7C9 /* LTUITextFieldDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59A96B8DD1CB1061FBE5DBAF6F25B417 /* LTUIButtonDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 533832D6967FC1EAF17F201C9C86BE7A /* LTUIButtonDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5AC714E834C1110177ABA04ACED05D22 /* LTUIButtonDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00010C56867B69E57EEC1624AC49DDE9 /* LTUIButtonDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A19D5C8B3E974D898110CB78A83E5EB /* LTUIButtonDecorations_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1721EAEE399D10E4A72481A2AC8BCC /* LTUIButtonDecorations_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5B2E29B045A7700EFBCE13967066B1E4 /* Pods-LTStyle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42E52CD311840106E5EDDF062EEFF2 /* Pods-LTStyle_Example-dummy.m */; };
 		5D3A5E9359A70F84E5EC0C4CE701DDE5 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D95DC370FE619787EA993FF91CA51EE /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F787B4263348644844F9D18CCBA4A124 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		608802A277131E81B04C19741756D2E7 /* LTUIViewDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA58A812A0BC0BED1BF6199C3278D85 /* LTUIViewDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6428AB09F47FC5F24C85E106A98C5E5E /* UIImageView+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BBF96BFC281E59E32A7676C51AF392 /* UIImageView+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68FD6DEE3BA7BEF290DFABF52EFB2E49 /* UIView+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6C9BB65AA37B16968F7AC56857CF5 /* UIView+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		68508317FD18BE057C04CDF1575E42E6 /* LTStringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB13B983E3501AB9F836F53C97E745FE /* LTStringAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
-		6D8616EA7C3455BF2E2E9FFC0099AD16 /* UITextField+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = E575DB1C0334ED480D25BCFB1B9887EC /* UITextField+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE1979338ECCDF47FA6244A277E01EA /* UILabel+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CA12634F0E34F481DB3A592AC54DE /* UILabel+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6EAA145810F200C34270C1017891CFF1 /* Pods-LTStyle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E779976E4D1A99CF712CB7CC4659AC /* Pods-LTStyle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EEC969A04115D2B1E94523AD2C75B32 /* LTUITextFieldDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 04487B955654D9E9C2C42A324DE5C197 /* LTUITextFieldDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBE0FC2CEE97E3675FFB5B3E4F6CA05 /* LTUIButtonDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB46EC8C20659C7474004855B18086 /* LTUIButtonDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */; };
+		723C27F450D7FF56C5E5609BF68D7EBF /* UIControl+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = F486B5982F1C6C90ABF9526245C34962 /* UIControl+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		754197D184C23A19146DB4C9B3B90050 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15181A2A90AA8A9F24D97664729A1B2 /* SwiftSupport.swift */; };
 		75DF265A4FEC4E42582B8570194CB583 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D1A0E9BD4DDFBC87E078DEC833A16 /* UIImage+Diff.m */; };
-		764E9F2A55E446CA22DA1ECB948C572D /* LTUIControlDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA88C0FC79B6CEC02EF5075320C9 /* LTUIControlDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76D4B2AD2F4B72361FFB227379E38069 /* LTUITextFieldDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1221A2DEABCE0842609254FF571A9EC1 /* LTUITextFieldDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		79FE689B3B54D2D19BAA6235F778C3D6 /* UITextField+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F69A18D8C2487C8A1DD8C4A93EF9D19 /* UITextField+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7A27CAFCB586104AA102A9C161AD0978 /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C2657BAA206413F0B3511C7FD08BA9A /* UIButton+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B8A300204D07C6B3C9280B172CE1FA /* UIButton+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A4A28B4B00A0F5F16DFABCA32C60999 /* LTUIImageViewDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = D14BC36C0BC1BB6CC5D5B4296E2CCC9A /* LTUIImageViewDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F1209D2DD89FBCDABDA3CDBB0DDB49D /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */; };
 		8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		827762B596901D18DAD29830875E1922 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83475A7BEF15F0A397368F3B75640B72 /* LTStringAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D15C41C3F580DB61444AF527DBA2C /* LTStringAttributes.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		84A7810890A6CD379E247441CA1AB21B /* LTStringAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8309230EDCFDEFE69C48727B02A17 /* LTStringAttributes.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		85BB92CC3FF4FB4A54F20BCBF1666A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
-		861727B2E96095A41C590982C42B8DC2 /* LTUIViewDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D22C47A01A658DD7EB7257E064B666 /* LTUIViewDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86365A8DEDA7C9315120DED5EC7F23DC /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 70879F4C3E0CE4C4593A08B4BB1C1AF0 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86A40D9CFD9051779B220F53DE991DCA /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86CCB121DC152C570F89365E9B55A369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		872665C042339D1685D9EEEAD524CC63 /* LTUIViewDecorator_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6695B79289EA03BFD23E443AFBB6A9B8 /* LTUIViewDecorator_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		875BBA76ABCD31977B1C0ED2F461632D /* NSAttributedString+LTStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F53D59457B6D12BE14A2C9F0E555052E /* NSAttributedString+LTStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87C61FE4EBA517506085582BD4175CCA /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		889FE136349E95DFBE20F050685FB124 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E61F0C06E6807EE9DB324F266909BED /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -110,19 +106,17 @@
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = D182CF13D4DB728DAAD9786E7E8143B2 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 389932E25AB5180C7024CD173A4B6D4B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D4E4B21BA719D35B2D7DA979D53855F /* LTUITextViewDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5335769F75DDE12ABABEFDDB0C2932D3 /* LTUITextViewDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		956493AAE604C82E15360777CCCB3365 /* LTUIImageViewDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FF7AAEC41C84A84FD833B1CA3F5EED /* LTUIImageViewDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		91ED51526FF6D8745883FA98459DE6F3 /* NSAttributedString+LTStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 531370E128F0F7A12F9FB86AC593B621 /* NSAttributedString+LTStyle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93BCC439D62AB15BB8647A4E78EAEE4E /* LTUIViewDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8271B26A262B3E9CE9F8135215EC323E /* LTUIViewDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95140C53B1BEA709E9F2061B3293AD8D /* UIButton+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BD65951571F61E8E13A812775493F9 /* UIButton+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9605A166839E5B582E5F4A08E786DF1F /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
-		97B278BD3AF4723F35DFDD94B58BCD4D /* LTUIButtonDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FF93236E4B5DBFB5D91B9086714BAE /* LTUIButtonDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		98CF4E57A36540E13153A545546A1D11 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D87B9B77C0C44AA9110F83844B1744F /* UIImage+Compare.m */; };
-		990F6E8063513F66715583A265AF6683 /* LTStyle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8A10A1021BFEB0381C5AA849D8220C /* LTStyle-dummy.m */; };
 		99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9BF5E680FD142E4E1D50201658F8D37D /* UILabel+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D3FEC800F76CB825D731DAAE01406A /* UILabel+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = D23BC3A3A95CE0E0D9D4237760C716E8 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CFF07440060332E5BCB557D40336E55 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93D23F4DB7569CC800036F3F8FAFE2E /* FBSnapshotTestCase.framework */; };
 		9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -131,35 +125,35 @@
 		A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = D148E142A756A0CD8BA055B657862814 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A269C0C9FAE7F351E2BD624C66AB029F /* LTUIImageViewDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 298D99143163301665237AC4A8CBA888 /* LTUIImageViewDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A41034714C779552383D238C48FC4FDA /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4204524A63C84855AE821CD643B264A /* LTUITextViewDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EDC0F703161D220D43EBD99BC05107 /* LTUITextViewDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4D708563D06FCC4791D002723CBA985 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757732CABCCD0D3A3DECF0188321177D /* Specta-dummy.m */; };
 		A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A80F4BE1409F96416E2EB28A8E230556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406F63E83489E10D48B880F455CEC499 /* UIKit.framework */; };
 		A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F336ECC66909E2FC05C8E3D376CF12 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A88756E254FFE5D325BB12F69BDC4863 /* LTUIImageViewDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA212CD11EE33D4E0A1BB10E040CC5F /* LTUIImageViewDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA070365E9E6FD0C9BE936351AC7A0B1 /* LTUIControlDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E07932329524C28A5D4B9BE57D231E /* LTUIControlDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA98386014F4F4C06EE9D0CBE0D8C1F2 /* LTUITextFieldDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1335AEADFCC7844A2555CB39016603 /* LTUITextFieldDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC0AB78F3A7629ED1C7F3F82BBB3F471 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF69A88096C50028C34265E063C8A011 /* UILabel+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 168BF9C4DEDC3637C962685BABA04474 /* UILabel+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2306DB20C45565A1E7A2543772E6C51 /* LTUILabelDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 193C02407C12CBC39091002FCDD8244A /* LTUILabelDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24E5EA0304DE12AF60AAB4BAC93BA26 /* NSAttributedString+LTStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FF2BB7E2C6940F44AC5AE1EF0D99E4 /* NSAttributedString+LTStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B772851EBA98258DF60B5754A7A3F07D /* LTUILabelDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9266847FDFA3870189C19262F93384 /* LTUILabelDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B89A19FA40C5F590F0AAD91908FD9DDB /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */; };
-		BB8360A29FEDBE3B2D3057576660BA9A /* LTUITextFieldDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0287F65188F73749F48FA19B41F3D /* LTUITextFieldDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC01DD3EAFC5406A1B3031DC9A4A2A00 /* UIView+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = E893B8B843BDC24859C561758E99EBCF /* UIView+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BD157AEB9B3A78A56264FA33306071A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */; };
 		BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C1DF1378F608A031627FBF81B6A9C6E5 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C24D0DDE93B4D05F79CFC9DAAA8BECE8 /* LTUIImageViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = C31ACAB3F295C5023EE033BAA2AEB268 /* LTUIImageViewDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C2AC23E0FE8257233E90748E4DD9651F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */; };
+		C50B3CDBB615886461D879479C3B04D4 /* LTUIViewDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = FECE680EF2DB32CD78C0B7522DC9E08B /* LTUIViewDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C516B672FFC9DB635E0E53DA8FC9CF88 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6E6C6CD2E4105AE9595FA4CC6137C /* FBSnapshotTestCase.m */; };
-		C6339833F74E7E05397B518A9F0EA03D /* UITextView+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCF4AD72780B27A4911CA4D483B7A1B /* UITextView+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CA12FB380E35F806A03D6094BC278F1B /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47922AA0F6D472C6BD29B15DF2DE148 /* Expecta.framework */; };
 		CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,40 +161,46 @@
 		CD66900813CFE317343F5A4053AE73EC /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CDBF7F2D23165CAB8B3819A256A49F0A /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE7E4C141657D23213C7FAE616D7FA75 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CEE6B0EBC6B09F0BA14681E0D3B778BB /* LTUITextViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40839B31F180535434B1AD449B7811 /* LTUITextViewDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CFF70A8ADEF50009A785E4B16D73B562 /* NSAttributedString+LTStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C51F8DDF1EA7683A51A42E9E684B70C0 /* NSAttributedString+LTStyle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D01FA54F2C32F3B21E62532FB0219160 /* LTUIImageViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE2646B8A6197F1CD5EEACA17CFE1F5 /* LTUIImageViewDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CECCAE9A9F70844EF59C4A003A2558EB /* LTUIImageViewDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF642D28948F538728F0EF1294452F3 /* LTUIImageViewDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */; };
 		D180489445C2C507332A6EE964ADA1E5 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 612DFA52478D8CE9C4866818C95C29E9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D1CEB28C2F6DBC67B44FD72B08E25B38 /* LTUIButtonDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = DC62CC96EE9E33D9E8A477D46EAE0DEE /* LTUIButtonDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D26E3CFBFF3D6DB60E74855322752381 /* UIView+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6D3AE2EBC469DA177E9B15ABDFDFF5 /* UIView+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D490834AA1304BF36991A257F3366648 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */; };
 		D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9B604C158EB45CA5EF7B0B7008ECB66 /* LTStringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4879BF00B28274408EEDD00349C95678 /* LTStringAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA0EE6344DF394EFC2D35F96F7A52F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4E37D0F684BE7E15280269C2BDDEAC /* UIImageView+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 94580207D73CD157BC119886792D5F54 /* UIImageView+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEFE1B1803248B7D78C14D1A0A90AE7F /* UITextField+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = AD648ECCF6AB40E1D23FB23352E4C2BF /* UITextField+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3145D618F0A10BA8FBA5907A4ABB817 /* LTUIViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD386AE264F968FC5125B8E83D99DFD /* LTUIViewDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E300441AE2BEB1A5C921C495D6AD0E86 /* LTUITextFieldDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C0875F3C0E439FBD6D5AFBD7D4D48 /* LTUITextFieldDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E323F9B0DBBF81FA98D6FC9174129920 /* LTUIImageViewDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 98119792BEDF17D8B14941606C85DD69 /* LTUIImageViewDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35D8059E8FB0E68F589D9D89DDD350C /* UITextField+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BE4D1AC6C0B80239E7851007E9D48D /* UITextField+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39E186DF896A52F3B5247003662D266 /* LTUIControlDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = E34968338CB64B99DD9D50967D5BD6E4 /* LTUIControlDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3A6AACE57AD9E173061836A074161FA /* Pods-LTStyle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1363CCE5A63337A9B1D7FB51F92C9A38 /* Pods-LTStyle_Tests-dummy.m */; };
-		E452FAC9022E68F83AF1754B6A2AE7BC /* LTUITextViewDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3538C429C790200A032BF78D1CECA7D8 /* LTUITextViewDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E8CCC7289747C081F6D6A10DA4239FC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E53784EB01F41414D2A2FBF05361E /* QuartzCore.framework */; };
 		E972E6647713D21A0F21BDAD1816AA29 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */; };
+		E9FD6759B3F8295428352CAC5949F2E1 /* LTUILabelDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1735A8B9409BD4CD8F2131E0532B2A9D /* LTUILabelDecorator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00B1AA877A631BBC74ABEEC271FF0F1 /* LTStyle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF07F017E72A2CDF160A2EA255A78DC5 /* LTStyle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */; };
 		F0F4302F720D54A498518E044A939E55 /* Pods-LTStyle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F3F928FB3102AC3C07E62B972E05A4 /* Pods-LTStyle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5563E571ADBEBB26E570D78ECA39E9D /* LTStyle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B74D277223D6373B818215EAB7F41 /* LTStyle-dummy.m */; };
+		F6E5ECE0162EB8A32FBB73FF967FCBDF /* UITextView+LTDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 786387CD96365CB0B93B610657362B98 /* UITextView+LTDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F71CBD8A1202E9987312B6E450FD0367 /* LTUITextViewDecorations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B97BBE5D98B3BC9BC2E1BBA0AC347CE /* LTUITextViewDecorations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA19CA92494A0B7C8CE531F4EACD70C /* LTUIButtonDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = C41C4D00B2EDD09F6352BD2505892D37 /* LTUIButtonDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */; };
 		FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDDF4148DE7258B11BDC6E93585E9E3D /* UIImageView+LTDecorations.h in Headers */ = {isa = PBXBuildFile; fileRef = 874A78C5A5EBD228F0FCB6B58DCD9570 /* UIImageView+LTDecorations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
@@ -251,7 +251,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42473AA564FB5528EBB2EE8F0A331F6A;
+			remoteGlobalIDString = A3D40FF6F8CB49AFC6950199FC9078B5;
 			remoteInfo = LTStyle;
 		};
 		EFC92AACCE3501DE84C8B7819B03C551 /* PBXContainerItemProxy */ = {
@@ -264,103 +264,99 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00010C56867B69E57EEC1624AC49DDE9 /* LTUIButtonDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIButtonDecorator.m; sourceTree = "<group>"; };
 		0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
-		04487B955654D9E9C2C42A324DE5C197 /* LTUITextFieldDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextFieldDecorator.h; sourceTree = "<group>"; };
+		01E07932329524C28A5D4B9BE57D231E /* LTUIControlDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIControlDecorator.m; sourceTree = "<group>"; };
+		041A745F6FFA34939B9202C5F407AF57 /* LTUIButtonDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIButtonDecorator.h; sourceTree = "<group>"; };
 		064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		07BC24DA84E3F15453DEC37314546A77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C78F14DD3DE85949562D7D98BD09B8 /* LTUIViewDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIViewDecorator.m; sourceTree = "<group>"; };
 		0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
-		11A6C9BB65AA37B16968F7AC56857CF5 /* UIView+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTDecorations.m"; sourceTree = "<group>"; };
 		12195BDCEA9965C166231A01D941A505 /* Pods-LTStyle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTStyle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		12FF7AAEC41C84A84FD833B1CA3F5EED /* LTUIImageViewDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIImageViewDecorations.m; sourceTree = "<group>"; };
+		1221A2DEABCE0842609254FF571A9EC1 /* LTUITextFieldDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextFieldDecorator.m; sourceTree = "<group>"; };
 		1363CCE5A63337A9B1D7FB51F92C9A38 /* Pods-LTStyle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTStyle_Tests-dummy.m"; sourceTree = "<group>"; };
 		158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
+		168BF9C4DEDC3637C962685BABA04474 /* UILabel+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LTDecorations.h"; sourceTree = "<group>"; };
+		1735A8B9409BD4CD8F2131E0532B2A9D /* LTUILabelDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUILabelDecorator.m; sourceTree = "<group>"; };
 		1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
-		193C02407C12CBC39091002FCDD8244A /* LTUILabelDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUILabelDecorator.h; sourceTree = "<group>"; };
 		19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
+		1E1721EAEE399D10E4A72481A2AC8BCC /* LTUIButtonDecorations_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIButtonDecorations_Private.h; sourceTree = "<group>"; };
 		1E7BBDA96EB748B4566D121043C548C0 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
-		209D15C41C3F580DB61444AF527DBA2C /* LTStringAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTStringAttributes.m; sourceTree = "<group>"; };
-		210528DF81ED4CE099B62A18E2CD6F09 /* LTStyle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTStyle.xcconfig; sourceTree = "<group>"; };
+		1F54AD475BABA2FFFB6BAB96056DF135 /* UIButton+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTDecorations.m"; sourceTree = "<group>"; };
 		222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		2626478739606617EC139FCD735D54FD /* LTUIControlDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIControlDecorations.h; sourceTree = "<group>"; };
 		26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
-		282ADBED14CDDDDBCB6F4BE788414FA4 /* LTStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		282ADBED14CDDDDBCB6F4BE788414FA4 /* LTStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTStyle.framework; path = LTStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
-		298D99143163301665237AC4A8CBA888 /* LTUIImageViewDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIImageViewDecorations.h; sourceTree = "<group>"; };
 		2A8AFAAD551F556A53CD4C1B21534F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B0529E4A817BCF5BF22ADA77866D0B7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		2D87B9B77C0C44AA9110F83844B1744F /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
-		2FA212CD11EE33D4E0A1BB10E040CC5F /* LTUIImageViewDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIImageViewDecorator.h; sourceTree = "<group>"; };
-		2FCF4AD72780B27A4911CA4D483B7A1B /* UITextView+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+LTDecorations.h"; sourceTree = "<group>"; };
+		2F69A18D8C2487C8A1DD8C4A93EF9D19 /* UITextField+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LTDecorations.m"; sourceTree = "<group>"; };
 		306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
-		3538C429C790200A032BF78D1CECA7D8 /* LTUITextViewDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextViewDecorator.h; sourceTree = "<group>"; };
 		370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
-		37323B9300F7C88848BA2B5FFAE71E2D /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37323B9300F7C88848BA2B5FFAE71E2D /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		389932E25AB5180C7024CD173A4B6D4B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		392C33DB0EAA4286B7EBA03CEC886328 /* Pods-LTStyle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTStyle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		39686FFA13DAF68BB30B71BF78A974C3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		3A20AA961ED3856300E38F44 /* LTUIButtonDecorations_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTUIButtonDecorations_Private.h; sourceTree = "<group>"; };
 		3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
 		3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AD199F953A76C011AAE0FEC9C76880F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3B44BD46F2CF22594B23C639D359E58B /* LTUILabelDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUILabelDecorator.h; sourceTree = "<group>"; };
 		3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
-		3DCF83DBF6B40E852A93304C134CB822 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
-		3E5CA004F4DF355EA4719088D8D69D6D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		3F862797664D0A6668AE953CB22045C0 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Specta.modulemap; sourceTree = "<group>"; };
+		3E5CA004F4DF355EA4719088D8D69D6D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		3F1335AEADFCC7844A2555CB39016603 /* LTUITextFieldDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextFieldDecorator.h; sourceTree = "<group>"; };
+		3F862797664D0A6668AE953CB22045C0 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Specta.modulemap; sourceTree = "<group>"; };
 		406F63E83489E10D48B880F455CEC499 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		419377E544AC43AB5272D6BABBDFC7F4 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		428F5AA64CB12DFC1C335C47914064E0 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
-		42BBF96BFC281E59E32A7676C51AF392 /* UIImageView+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LTDecorations.h"; sourceTree = "<group>"; };
+		42DC68DFE26EFE72940B45C6DB55A2A9 /* LTUIControlDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIControlDecorations.m; sourceTree = "<group>"; };
 		431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
-		4830E2CDC42F68D956D8A549175A352A /* LTStyle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTStyle-prefix.pch"; sourceTree = "<group>"; };
-		4879BF00B28274408EEDD00349C95678 /* LTStringAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTStringAttributes.h; sourceTree = "<group>"; };
 		4A13AEBD3A512EC975C2DD3AF8D8931D /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		4A43B8C856EE1B2AD93FB62BFECABB9E /* Pods-LTStyle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTStyle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		4A7DDD4A7CE0636458E013320B3DCFC2 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		4E8A13D7208CE14B1CEC724E5A763545 /* UIControl+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+LTDecorations.h"; sourceTree = "<group>"; };
-		503BF3EAF78D0A82039D538B8D7F1EB7 /* UIControl+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LTDecorations.m"; sourceTree = "<group>"; };
+		4CF642D28948F538728F0EF1294452F3 /* LTUIImageViewDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIImageViewDecorations.h; sourceTree = "<group>"; };
+		4F8EA0BA3D789EA63860784FE0C26728 /* UIView+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTDecorations.m"; sourceTree = "<group>"; };
 		51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		5335769F75DDE12ABABEFDDB0C2932D3 /* LTUITextViewDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextViewDecorations.h; sourceTree = "<group>"; };
-		533832D6967FC1EAF17F201C9C86BE7A /* LTUIButtonDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIButtonDecorations.m; sourceTree = "<group>"; };
+		531370E128F0F7A12F9FB86AC593B621 /* NSAttributedString+LTStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LTStyle.m"; sourceTree = "<group>"; };
 		5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
-		55FF93236E4B5DBFB5D91B9086714BAE /* LTUIButtonDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIButtonDecorations.h; sourceTree = "<group>"; };
-		56D3FEC800F76CB825D731DAAE01406A /* UILabel+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LTDecorations.m"; sourceTree = "<group>"; };
 		57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		581C5F5012EB4722B076757D7F522B51 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		58E779976E4D1A99CF712CB7CC4659AC /* Pods-LTStyle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTStyle_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5AD0287F65188F73749F48FA19B41F3D /* LTUITextFieldDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextFieldDecorator.m; sourceTree = "<group>"; };
+		5A834E56DCF725D31A46F7229CDFDAD1 /* LTUILabelDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUILabelDecorations.m; sourceTree = "<group>"; };
 		5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		5D42E52CD311840106E5EDDF062EEFF2 /* Pods-LTStyle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTStyle_Example-dummy.m"; sourceTree = "<group>"; };
+		5D5395693BDF1411ECDF82FD68101E96 /* LTUIButtonDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIButtonDecorator.m; sourceTree = "<group>"; };
 		5E61F0C06E6807EE9DB324F266909BED /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		5EF0200B132064FA16974FE7180C6383 /* UILabel+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LTDecorations.h"; sourceTree = "<group>"; };
-		5EF8D5C78B126C1BB8530D4CC1A2918C /* UITextView+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LTDecorations.m"; sourceTree = "<group>"; };
 		612DFA52478D8CE9C4866818C95C29E9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		633AF741ACB8E7C036B4EA8340A79B66 /* LTStyle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTStyle.modulemap; sourceTree = "<group>"; };
 		64068957F5F0147CADD3A3FE19EB0173 /* Pods-LTStyle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTStyle_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		647A56AD4F0C83FCF74D0439F5730081 /* Pods-LTStyle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTStyle_Tests-resources.sh"; sourceTree = "<group>"; };
 		64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		65151D31448276A43462B5C47014D6AB /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		6695B79289EA03BFD23E443AFBB6A9B8 /* LTUIViewDecorator_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIViewDecorator_Private.h; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
+		68BE4D1AC6C0B80239E7851007E9D48D /* UITextField+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+LTDecorations.h"; sourceTree = "<group>"; };
+		68C8309230EDCFDEFE69C48727B02A17 /* LTStringAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTStringAttributes.m; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
+		6B97BBE5D98B3BC9BC2E1BBA0AC347CE /* LTUITextViewDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextViewDecorations.m; sourceTree = "<group>"; };
 		6F171023695E78011482097406A42BC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
@@ -370,82 +366,93 @@
 		758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
+		763CE3D39077EF8C4422EB081733A526 /* LTUIViewDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIViewDecorations.h; sourceTree = "<group>"; };
+		780CA12634F0E34F481DB3A592AC54DE /* UILabel+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LTDecorations.m"; sourceTree = "<group>"; };
+		786387CD96365CB0B93B610657362B98 /* UITextView+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LTDecorations.m"; sourceTree = "<group>"; };
 		7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
+		78AC4037B8CD2798A80B64F0DDDA5978 /* LTStyle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTStyle-prefix.pch"; sourceTree = "<group>"; };
 		79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
-		7B4098E6E4C4CD5A15C6870E65F63ACD /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4098E6E4C4CD5A15C6870E65F63ACD /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		7F5D1A0E9BD4DDFBC87E078DEC833A16 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		8271B26A262B3E9CE9F8135215EC323E /* LTUIViewDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIViewDecorations.m; sourceTree = "<group>"; };
 		827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		858EB7EEE34BFE026070215BBE61AFB3 /* Pods-LTStyle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTStyle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		863346C1CA52441120DDB4E5390F7FE4 /* UIImageView+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LTDecorations.m"; sourceTree = "<group>"; };
-		88FF96D69AC5759171F2D46A07921575 /* UIButton+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTDecorations.h"; sourceTree = "<group>"; };
+		874A78C5A5EBD228F0FCB6B58DCD9570 /* UIImageView+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LTDecorations.h"; sourceTree = "<group>"; };
+		88BD65951571F61E8E13A812775493F9 /* UIButton+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTDecorations.h"; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
-		8C40839B31F180535434B1AD449B7811 /* LTUITextViewDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextViewDecorator.m; sourceTree = "<group>"; };
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		8D5C502FD944D766FF5C5D39559DD685 /* Pods-LTStyle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTStyle_Example-resources.sh"; sourceTree = "<group>"; };
-		8E5234E11B5C5F0DA94A0F2A2A85F7C9 /* LTUITextFieldDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextFieldDecorations.m; sourceTree = "<group>"; };
 		8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		915A04C93FC73DDA0B7843A60E6413D8 /* Pods-LTStyle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTStyle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
-		921C86B70AE5EE1E10BD09948738EF96 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
+		921C86B70AE5EE1E10BD09948738EF96 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		9256247BB2119874660830F5509B4905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944C0875F3C0E439FBD6D5AFBD7D4D48 /* LTUITextFieldDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextFieldDecorations.m; sourceTree = "<group>"; };
+		94580207D73CD157BC119886792D5F54 /* UIImageView+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LTDecorations.m"; sourceTree = "<group>"; };
 		959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
-		96B8A300204D07C6B3C9280B172CE1FA /* UIButton+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTDecorations.m"; sourceTree = "<group>"; };
+		97F0ACB3301BBDBC0247875E76BBAAC6 /* LTUITextViewDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextViewDecorator.h; sourceTree = "<group>"; };
+		98119792BEDF17D8B14941606C85DD69 /* LTUIImageViewDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIImageViewDecorator.h; sourceTree = "<group>"; };
 		99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		9A08667523BAB423F1BE70935D6FBBE5 /* Pods-LTStyle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTStyle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
-		A18716E9E1EF876EFBB2183707790121 /* LTUITextViewDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextViewDecorations.m; sourceTree = "<group>"; };
+		9FD3F59CE4D6065270573B9144471280 /* LTUILabelDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUILabelDecorations.h; sourceTree = "<group>"; };
 		A193DEFA4D1CD24BE0FE7815E44EC372 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
+		A19B74D277223D6373B818215EAB7F41 /* LTStyle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTStyle-dummy.m"; sourceTree = "<group>"; };
 		A29BA8C3E774C364BD56A4AAFFF1E6AA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		A403E7A699B8C5BDC81EEEA110153F75 /* LTUITextFieldDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextFieldDecorations.h; sourceTree = "<group>"; };
+		A2EDC0F703161D220D43EBD99BC05107 /* LTUITextViewDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextViewDecorations.h; sourceTree = "<group>"; };
 		A4F3F928FB3102AC3C07E62B972E05A4 /* Pods-LTStyle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTStyle_Example-umbrella.h"; sourceTree = "<group>"; };
 		A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
-		A76C8C46853CEEBF563F893539BBF54F /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76C8C46853CEEBF563F893539BBF54F /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FF2BB7E2C6940F44AC5AE1EF0D99E4 /* NSAttributedString+LTStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LTStyle.h"; sourceTree = "<group>"; };
 		A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
-		ACA58A812A0BC0BED1BF6199C3278D85 /* LTUIViewDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIViewDecorations.h; sourceTree = "<group>"; };
-		AD648ECCF6AB40E1D23FB23352E4C2BF /* UITextField+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LTDecorations.m"; sourceTree = "<group>"; };
 		AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
+		B391CEA613381ED009EAFBD434285F77 /* LTUITextFieldDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUITextFieldDecorations.h; sourceTree = "<group>"; };
 		B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
 		B55640F04A57499A6798501792571D7D /* Pods-LTStyle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTStyle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
-		BABABA88C0FC79B6CEC02EF5075320C9 /* LTUIControlDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIControlDecorator.m; sourceTree = "<group>"; };
 		BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
-		BC7FD70ECA32E3AD4729516356D3F0BD /* LTStyle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LTStyle.modulemap; sourceTree = "<group>"; };
+		BDEAEAB36F3BF2C243CEA5E68A7D8614 /* LTUIViewDecorator_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIViewDecorator_Private.h; sourceTree = "<group>"; };
 		BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
-		C00B9184D792E0E91FF8309B6AA598E6 /* Pods-LTStyle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LTStyle_Tests.modulemap"; sourceTree = "<group>"; };
+		C00B9184D792E0E91FF8309B6AA598E6 /* Pods-LTStyle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTStyle_Tests.modulemap"; sourceTree = "<group>"; };
 		C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		C05F2437B323BA95664A9870945410DD /* LTUIControlDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIControlDecorator.h; sourceTree = "<group>"; };
 		C073D055C5E9A286CA57C81549647C98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
+		C0EB902ED8733D08FE8C58D000DC7BA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
+		C31ACAB3F295C5023EE033BAA2AEB268 /* LTUIImageViewDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIImageViewDecorator.m; sourceTree = "<group>"; };
 		C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
+		C41C4D00B2EDD09F6352BD2505892D37 /* LTUIButtonDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIButtonDecorations.h; sourceTree = "<group>"; };
 		C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
-		C51F8DDF1EA7683A51A42E9E684B70C0 /* NSAttributedString+LTStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LTStyle.m"; sourceTree = "<group>"; };
+		C523AD2D4E7023DD3814374B14E279A9 /* UITextView+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+LTDecorations.h"; sourceTree = "<group>"; };
 		C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
+		C8DC18CF51CC06E77826C2C24C83D481 /* LTStyle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTStyle.xcconfig; sourceTree = "<group>"; };
 		C93D23F4DB7569CC800036F3F8FAFE2E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA56C226C24B769EFB602F12170B89F4 /* LTUILabelDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUILabelDecorator.m; sourceTree = "<group>"; };
+		CB01E45FE23C6D90BA2D238EB7C6D4F2 /* LTUITextViewDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUITextViewDecorator.m; sourceTree = "<group>"; };
 		CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
+		CF07F017E72A2CDF160A2EA255A78DC5 /* LTStyle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTStyle-umbrella.h"; sourceTree = "<group>"; };
 		D148E142A756A0CD8BA055B657862814 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
+		D14BC36C0BC1BB6CC5D5B4296E2CCC9A /* LTUIImageViewDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIImageViewDecorations.m; sourceTree = "<group>"; };
 		D15181A2A90AA8A9F24D97664729A1B2 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		D182CF13D4DB728DAAD9786E7E8143B2 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		D23BC3A3A95CE0E0D9D4237760C716E8 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
@@ -454,46 +461,39 @@
 		D417CB778FB662CFE79DB7FD9E6554A8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		D41D99FA9E9AAB2466DF45604137EF43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
-		D5D22C47A01A658DD7EB7257E064B666 /* LTUIViewDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIViewDecorator.h; sourceTree = "<group>"; };
-		D7EC5715ABFFA7949976F6BBC2498E19 /* LTUIControlDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIControlDecorations.m; sourceTree = "<group>"; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		DAD6E6C6CD2E4105AE9595FA4CC6137C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		DC62CC96EE9E33D9E8A477D46EAE0DEE /* LTUIButtonDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIButtonDecorator.h; sourceTree = "<group>"; };
+		DBCB46EC8C20659C7474004855B18086 /* LTUIButtonDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIButtonDecorations.m; sourceTree = "<group>"; };
 		DD84E61E0677EE091554A196E4EFCC8B /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		DDE789C734D7FA0017007FAB0DCC75F4 /* Pods_LTStyle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTStyle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE2646B8A6197F1CD5EEACA17CFE1F5 /* LTUIImageViewDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIImageViewDecorator.m; sourceTree = "<group>"; };
+		DDE789C734D7FA0017007FAB0DCC75F4 /* Pods_LTStyle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTStyle_Example.framework; path = "Pods-LTStyle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		E010E381AB5FE997A468033DB0DFE84B /* Pods-LTStyle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTStyle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E26FF5654A9400C68D31013D98FB7E66 /* LTUIViewDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIViewDecorations.m; sourceTree = "<group>"; };
+		E34968338CB64B99DD9D50967D5BD6E4 /* LTUIControlDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIControlDecorator.h; sourceTree = "<group>"; };
 		E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		E47922AA0F6D472C6BD29B15DF2DE148 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E575DB1C0334ED480D25BCFB1B9887EC /* UITextField+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+LTDecorations.h"; sourceTree = "<group>"; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
-		E87DCECF34FC421C2B1F318BD55BE9B2 /* Pods-LTStyle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LTStyle_Example.modulemap"; sourceTree = "<group>"; };
-		E893B8B843BDC24859C561758E99EBCF /* UIView+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LTDecorations.h"; sourceTree = "<group>"; };
-		EA3AD2E8EB60ABD3683FFBEC48974D43 /* LTUIControlDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIControlDecorations.h; sourceTree = "<group>"; };
+		E87DCECF34FC421C2B1F318BD55BE9B2 /* Pods-LTStyle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTStyle_Example.modulemap"; sourceTree = "<group>"; };
+		EA6D3AE2EBC469DA177E9B15ABDFDFF5 /* UIView+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LTDecorations.h"; sourceTree = "<group>"; };
+		EB13B983E3501AB9F836F53C97E745FE /* LTStringAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTStringAttributes.h; sourceTree = "<group>"; };
 		EC5E53784EB01F41414D2A2FBF05361E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		ECD386AE264F968FC5125B8E83D99DFD /* LTUIViewDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUIViewDecorator.m; sourceTree = "<group>"; };
-		EFE6FBC77170121E4E4E85392D9DCF1B /* LTUILabelDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTUILabelDecorations.m; sourceTree = "<group>"; };
+		ECBCB9073BFC505517B301F5FF8A7DCA /* UIControl+LTDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+LTDecorations.h"; sourceTree = "<group>"; };
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
-		F53D59457B6D12BE14A2C9F0E555052E /* NSAttributedString+LTStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LTStyle.h"; sourceTree = "<group>"; };
+		F486B5982F1C6C90ABF9526245C34962 /* UIControl+LTDecorations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LTDecorations.m"; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
 		F787B4263348644844F9D18CCBA4A124 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		F7F79A83872C7EB3439B10E28C8654A5 /* LTStyle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTStyle-umbrella.h"; sourceTree = "<group>"; };
-		F8E42F8A19474FE1ECE0826066C69E15 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA8A10A1021BFEB0381C5AA849D8220C /* LTStyle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTStyle-dummy.m"; sourceTree = "<group>"; };
+		F8E42F8A19474FE1ECE0826066C69E15 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
-		FCDEF9A1022C49CF1D4542F295F8784D /* Pods_LTStyle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTStyle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDEF9A1022C49CF1D4542F295F8784D /* Pods_LTStyle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTStyle_Tests.framework; path = "Pods-LTStyle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		FDDDCB2EFF440AF5994F69795FB818E9 /* Pods-LTStyle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTStyle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
-		FE9266847FDFA3870189C19262F93384 /* LTUILabelDecorations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUILabelDecorations.h; sourceTree = "<group>"; };
-		FFCA6E23CE38D336A38AFCF29986180A /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Expecta.modulemap; sourceTree = "<group>"; };
+		FECE680EF2DB32CD78C0B7522DC9E08B /* LTUIViewDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LTUIViewDecorator.h; sourceTree = "<group>"; };
+		FFCA6E23CE38D336A38AFCF29986180A /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Expecta.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -508,11 +508,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2428F77B9A9FEBA17F65A58D08117576 /* Frameworks */ = {
+		1C96F9F88B509C98D83D8E4777C3DBBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CCB121DC152C570F89365E9B55A369 /* Foundation.framework in Frameworks */,
+				1CF07BCA0644A408691ADAF28CB7DDC3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,14 +565,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		025B4DBDDD39EFC3245680AC208C3B49 /* Decorator */ = {
+		06B18E92202525B91263E9EB0F1D7043 /* Decorations */ = {
 			isa = PBXGroup;
 			children = (
-				F96583EAE160AA49313B4237DEF24BCF /* Categories */,
-				BFA0C5F2F04F503E21AE19943EB08377 /* Decorations */,
-				B81FECB45D4942B8BB190ED62AD2ACA0 /* Decorators */,
+				C41C4D00B2EDD09F6352BD2505892D37 /* LTUIButtonDecorations.h */,
+				DBCB46EC8C20659C7474004855B18086 /* LTUIButtonDecorations.m */,
+				2626478739606617EC139FCD735D54FD /* LTUIControlDecorations.h */,
+				42DC68DFE26EFE72940B45C6DB55A2A9 /* LTUIControlDecorations.m */,
+				4CF642D28948F538728F0EF1294452F3 /* LTUIImageViewDecorations.h */,
+				D14BC36C0BC1BB6CC5D5B4296E2CCC9A /* LTUIImageViewDecorations.m */,
+				9FD3F59CE4D6065270573B9144471280 /* LTUILabelDecorations.h */,
+				5A834E56DCF725D31A46F7229CDFDAD1 /* LTUILabelDecorations.m */,
+				B391CEA613381ED009EAFBD434285F77 /* LTUITextFieldDecorations.h */,
+				944C0875F3C0E439FBD6D5AFBD7D4D48 /* LTUITextFieldDecorations.m */,
+				A2EDC0F703161D220D43EBD99BC05107 /* LTUITextViewDecorations.h */,
+				6B97BBE5D98B3BC9BC2E1BBA0AC347CE /* LTUITextViewDecorations.m */,
+				763CE3D39077EF8C4422EB081733A526 /* LTUIViewDecorations.h */,
+				8271B26A262B3E9CE9F8135215EC323E /* LTUIViewDecorations.m */,
 			);
-			path = Decorator;
+			name = Decorations;
+			path = Decorations;
 			sourceTree = "<group>";
 		};
 		08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */ = {
@@ -584,6 +596,32 @@
 				C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FBB66BD584027763307DD7F492E9B22 /* AttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8729906C022221B8EEFEFF2AAC66 /* Classes */,
+			);
+			name = AttributedString;
+			sourceTree = "<group>";
+		};
+		1074F638F3E4471428754BF9B9951D90 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				6C9FAFDF97E0EE67E7CAE6973B9F9061 /* Classes */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
+		153349FC19F1513FA3CE2E9E91871EC7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C14CD4130B28C32F47DB679C168477E7 /* Decorations */,
+				4B855399CD4E1F73A0A7936986C69498 /* Decorators */,
+			);
+			name = Private;
+			path = Private;
 			sourceTree = "<group>";
 		};
 		1922ED2492F2CD5F07BAE0E198724705 /* Frameworks */ = {
@@ -636,6 +674,37 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
+		443A99A1A0290F998EDF7DE6F254C749 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				588F18D8DCDB63E7C69C07BD0E8CB596 /* Categories */,
+				06B18E92202525B91263E9EB0F1D7043 /* Decorations */,
+				58EB2D5868A6A56E58D69D9B43C1C914 /* Decorators */,
+			);
+			name = Public;
+			path = Public;
+			sourceTree = "<group>";
+		};
+		495CB7A16589232580FA7EFA75EB5FEC /* LTStyle */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB66BD584027763307DD7F492E9B22 /* AttributedString */,
+				1074F638F3E4471428754BF9B9951D90 /* Decorator */,
+				877A14768CEEF92D37A9D20D2CBF71CA /* Support Files */,
+			);
+			name = LTStyle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4B855399CD4E1F73A0A7936986C69498 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAEAB36F3BF2C243CEA5E68A7D8614 /* LTUIViewDecorator_Private.h */,
+			);
+			name = Decorators;
+			path = Decorators;
+			sourceTree = "<group>";
+		};
 		4EC3266E530313DE1EDFA1479CB145E3 /* Pods-LTStyle_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -654,12 +723,66 @@
 			path = "Target Support Files/Pods-LTStyle_Example";
 			sourceTree = "<group>";
 		};
-		57EAC435CC1D7F09B9F6C16240E1E637 /* Development Pods */ = {
+		588F18D8DCDB63E7C69C07BD0E8CB596 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				BE6C19779101A24AB9481943E0A1003C /* LTStyle */,
+				88BD65951571F61E8E13A812775493F9 /* UIButton+LTDecorations.h */,
+				1F54AD475BABA2FFFB6BAB96056DF135 /* UIButton+LTDecorations.m */,
+				ECBCB9073BFC505517B301F5FF8A7DCA /* UIControl+LTDecorations.h */,
+				F486B5982F1C6C90ABF9526245C34962 /* UIControl+LTDecorations.m */,
+				874A78C5A5EBD228F0FCB6B58DCD9570 /* UIImageView+LTDecorations.h */,
+				94580207D73CD157BC119886792D5F54 /* UIImageView+LTDecorations.m */,
+				168BF9C4DEDC3637C962685BABA04474 /* UILabel+LTDecorations.h */,
+				780CA12634F0E34F481DB3A592AC54DE /* UILabel+LTDecorations.m */,
+				68BE4D1AC6C0B80239E7851007E9D48D /* UITextField+LTDecorations.h */,
+				2F69A18D8C2487C8A1DD8C4A93EF9D19 /* UITextField+LTDecorations.m */,
+				C523AD2D4E7023DD3814374B14E279A9 /* UITextView+LTDecorations.h */,
+				786387CD96365CB0B93B610657362B98 /* UITextView+LTDecorations.m */,
+				EA6D3AE2EBC469DA177E9B15ABDFDFF5 /* UIView+LTDecorations.h */,
+				4F8EA0BA3D789EA63860784FE0C26728 /* UIView+LTDecorations.m */,
 			);
-			name = "Development Pods";
+			name = Categories;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		58EB2D5868A6A56E58D69D9B43C1C914 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				041A745F6FFA34939B9202C5F407AF57 /* LTUIButtonDecorator.h */,
+				5D5395693BDF1411ECDF82FD68101E96 /* LTUIButtonDecorator.m */,
+				E34968338CB64B99DD9D50967D5BD6E4 /* LTUIControlDecorator.h */,
+				01E07932329524C28A5D4B9BE57D231E /* LTUIControlDecorator.m */,
+				98119792BEDF17D8B14941606C85DD69 /* LTUIImageViewDecorator.h */,
+				C31ACAB3F295C5023EE033BAA2AEB268 /* LTUIImageViewDecorator.m */,
+				3B44BD46F2CF22594B23C639D359E58B /* LTUILabelDecorator.h */,
+				1735A8B9409BD4CD8F2131E0532B2A9D /* LTUILabelDecorator.m */,
+				3F1335AEADFCC7844A2555CB39016603 /* LTUITextFieldDecorator.h */,
+				1221A2DEABCE0842609254FF571A9EC1 /* LTUITextFieldDecorator.m */,
+				97F0ACB3301BBDBC0247875E76BBAAC6 /* LTUITextViewDecorator.h */,
+				CB01E45FE23C6D90BA2D238EB7C6D4F2 /* LTUITextViewDecorator.m */,
+				FECE680EF2DB32CD78C0B7522DC9E08B /* LTUIViewDecorator.h */,
+				09C78F14DD3DE85949562D7D98BD09B8 /* LTUIViewDecorator.m */,
+			);
+			name = Decorators;
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		58FE8729906C022221B8EEFEFF2AAC66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3DDAD9FDCD6EF1C4D3589D94DBC25 /* AttributedString */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6C9FAFDF97E0EE67E7CAE6973B9F9061 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5C63DE944D13A668B4F61FB18E9163C /* Decorator */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		778606D5FF2F934B11EBF31C35276646 /* FBSnapshotTestCase */ = {
@@ -669,6 +792,7 @@
 				25569E96824C4F1200539B5948CEF428 /* Support Files */,
 				A5146D344D0BDF4F9705D174EE7D3186 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -750,6 +874,7 @@
 				064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */,
 				2D10E3A58DE1576CA21DF3FB7F432051 /* Support Files */,
 			);
+			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -771,7 +896,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				57EAC435CC1D7F09B9F6C16240E1E637 /* Development Pods */,
+				EF1268948F5649F79BDB42063AEE3865 /* Development Pods */,
 				1922ED2492F2CD5F07BAE0E198724705 /* Frameworks */,
 				08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */,
 				7C1CF9922E0CA18BC89CDA99EEDDD61A /* Products */,
@@ -779,15 +904,18 @@
 			);
 			sourceTree = "<group>";
 		};
-		9F2A8C9AEC02BA475AA5C0DEBE3CDA5E /* AttributedString */ = {
+		877A14768CEEF92D37A9D20D2CBF71CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4879BF00B28274408EEDD00349C95678 /* LTStringAttributes.h */,
-				209D15C41C3F580DB61444AF527DBA2C /* LTStringAttributes.m */,
-				F53D59457B6D12BE14A2C9F0E555052E /* NSAttributedString+LTStyle.h */,
-				C51F8DDF1EA7683A51A42E9E684B70C0 /* NSAttributedString+LTStyle.m */,
+				C0EB902ED8733D08FE8C58D000DC7BA7 /* Info.plist */,
+				633AF741ACB8E7C036B4EA8340A79B66 /* LTStyle.modulemap */,
+				C8DC18CF51CC06E77826C2C24C83D481 /* LTStyle.xcconfig */,
+				A19B74D277223D6373B818215EAB7F41 /* LTStyle-dummy.m */,
+				78AC4037B8CD2798A80B64F0DDDA5978 /* LTStyle-prefix.pch */,
+				CF07F017E72A2CDF160A2EA255A78DC5 /* LTStyle-umbrella.h */,
 			);
-			path = AttributedString;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LTStyle";
 			sourceTree = "<group>";
 		};
 		A5146D344D0BDF4F9705D174EE7D3186 /* SwiftSupport */ = {
@@ -807,79 +935,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B81FECB45D4942B8BB190ED62AD2ACA0 /* Decorators */ = {
+		C14CD4130B28C32F47DB679C168477E7 /* Decorations */ = {
 			isa = PBXGroup;
 			children = (
-				DC62CC96EE9E33D9E8A477D46EAE0DEE /* LTUIButtonDecorator.h */,
-				00010C56867B69E57EEC1624AC49DDE9 /* LTUIButtonDecorator.m */,
-				C05F2437B323BA95664A9870945410DD /* LTUIControlDecorator.h */,
-				BABABA88C0FC79B6CEC02EF5075320C9 /* LTUIControlDecorator.m */,
-				2FA212CD11EE33D4E0A1BB10E040CC5F /* LTUIImageViewDecorator.h */,
-				DEE2646B8A6197F1CD5EEACA17CFE1F5 /* LTUIImageViewDecorator.m */,
-				193C02407C12CBC39091002FCDD8244A /* LTUILabelDecorator.h */,
-				CA56C226C24B769EFB602F12170B89F4 /* LTUILabelDecorator.m */,
-				04487B955654D9E9C2C42A324DE5C197 /* LTUITextFieldDecorator.h */,
-				5AD0287F65188F73749F48FA19B41F3D /* LTUITextFieldDecorator.m */,
-				3538C429C790200A032BF78D1CECA7D8 /* LTUITextViewDecorator.h */,
-				8C40839B31F180535434B1AD449B7811 /* LTUITextViewDecorator.m */,
-				D5D22C47A01A658DD7EB7257E064B666 /* LTUIViewDecorator.h */,
-				ECD386AE264F968FC5125B8E83D99DFD /* LTUIViewDecorator.m */,
-				6695B79289EA03BFD23E443AFBB6A9B8 /* LTUIViewDecorator_Private.h */,
+				1E1721EAEE399D10E4A72481A2AC8BCC /* LTUIButtonDecorations_Private.h */,
 			);
-			path = Decorators;
-			sourceTree = "<group>";
-		};
-		BC68D7823793A910EF406830342BA5FF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FCE703B459F74AAAC47614545601648E /* Public */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BE6C19779101A24AB9481943E0A1003C /* LTStyle */ = {
-			isa = PBXGroup;
-			children = (
-				BC68D7823793A910EF406830342BA5FF /* Classes */,
-				BEF025FB561F5828ED26C2556E031F17 /* Support Files */,
-			);
-			name = LTStyle;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BEF025FB561F5828ED26C2556E031F17 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3DCF83DBF6B40E852A93304C134CB822 /* Info.plist */,
-				BC7FD70ECA32E3AD4729516356D3F0BD /* LTStyle.modulemap */,
-				210528DF81ED4CE099B62A18E2CD6F09 /* LTStyle.xcconfig */,
-				FA8A10A1021BFEB0381C5AA849D8220C /* LTStyle-dummy.m */,
-				4830E2CDC42F68D956D8A549175A352A /* LTStyle-prefix.pch */,
-				F7F79A83872C7EB3439B10E28C8654A5 /* LTStyle-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LTStyle";
-			sourceTree = "<group>";
-		};
-		BFA0C5F2F04F503E21AE19943EB08377 /* Decorations */ = {
-			isa = PBXGroup;
-			children = (
-				55FF93236E4B5DBFB5D91B9086714BAE /* LTUIButtonDecorations.h */,
-				533832D6967FC1EAF17F201C9C86BE7A /* LTUIButtonDecorations.m */,
-				EA3AD2E8EB60ABD3683FFBEC48974D43 /* LTUIControlDecorations.h */,
-				D7EC5715ABFFA7949976F6BBC2498E19 /* LTUIControlDecorations.m */,
-				298D99143163301665237AC4A8CBA888 /* LTUIImageViewDecorations.h */,
-				12FF7AAEC41C84A84FD833B1CA3F5EED /* LTUIImageViewDecorations.m */,
-				FE9266847FDFA3870189C19262F93384 /* LTUILabelDecorations.h */,
-				EFE6FBC77170121E4E4E85392D9DCF1B /* LTUILabelDecorations.m */,
-				A403E7A699B8C5BDC81EEEA110153F75 /* LTUITextFieldDecorations.h */,
-				8E5234E11B5C5F0DA94A0F2A2A85F7C9 /* LTUITextFieldDecorations.m */,
-				5335769F75DDE12ABABEFDDB0C2932D3 /* LTUITextViewDecorations.h */,
-				A18716E9E1EF876EFBB2183707790121 /* LTUITextViewDecorations.m */,
-				ACA58A812A0BC0BED1BF6199C3278D85 /* LTUIViewDecorations.h */,
-				E26FF5654A9400C68D31013D98FB7E66 /* LTUIViewDecorations.m */,
-				3A20AA961ED3856300E38F44 /* LTUIButtonDecorations_Private.h */,
-			);
+			name = Decorations;
 			path = Decorations;
 			sourceTree = "<group>";
 		};
@@ -913,6 +974,7 @@
 				33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */,
 				EC13DDF6CA2C4CAAA835ABE5DA3A731F /* Support Files */,
 			);
+			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -925,6 +987,7 @@
 				22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */,
 				F4013618912B558D4DF190A95A39EFD4 /* Support Files */,
 			);
+			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -981,6 +1044,14 @@
 			path = "../Target Support Files/Specta";
 			sourceTree = "<group>";
 		};
+		EF1268948F5649F79BDB42063AEE3865 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495CB7A16589232580FA7EFA75EB5FEC /* LTStyle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		F4013618912B558D4DF190A95A39EFD4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -995,39 +1066,64 @@
 			path = "../Target Support Files/Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		F96583EAE160AA49313B4237DEF24BCF /* Categories */ = {
+		F5C63DE944D13A668B4F61FB18E9163C /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
-				88FF96D69AC5759171F2D46A07921575 /* UIButton+LTDecorations.h */,
-				96B8A300204D07C6B3C9280B172CE1FA /* UIButton+LTDecorations.m */,
-				4E8A13D7208CE14B1CEC724E5A763545 /* UIControl+LTDecorations.h */,
-				503BF3EAF78D0A82039D538B8D7F1EB7 /* UIControl+LTDecorations.m */,
-				42BBF96BFC281E59E32A7676C51AF392 /* UIImageView+LTDecorations.h */,
-				863346C1CA52441120DDB4E5390F7FE4 /* UIImageView+LTDecorations.m */,
-				5EF0200B132064FA16974FE7180C6383 /* UILabel+LTDecorations.h */,
-				56D3FEC800F76CB825D731DAAE01406A /* UILabel+LTDecorations.m */,
-				E575DB1C0334ED480D25BCFB1B9887EC /* UITextField+LTDecorations.h */,
-				AD648ECCF6AB40E1D23FB23352E4C2BF /* UITextField+LTDecorations.m */,
-				2FCF4AD72780B27A4911CA4D483B7A1B /* UITextView+LTDecorations.h */,
-				5EF8D5C78B126C1BB8530D4CC1A2918C /* UITextView+LTDecorations.m */,
-				E893B8B843BDC24859C561758E99EBCF /* UIView+LTDecorations.h */,
-				11A6C9BB65AA37B16968F7AC56857CF5 /* UIView+LTDecorations.m */,
+				153349FC19F1513FA3CE2E9E91871EC7 /* Private */,
+				443A99A1A0290F998EDF7DE6F254C749 /* Public */,
 			);
-			path = Categories;
+			name = Decorator;
+			path = Decorator;
 			sourceTree = "<group>";
 		};
-		FCE703B459F74AAAC47614545601648E /* Public */ = {
+		F6E3DDAD9FDCD6EF1C4D3589D94DBC25 /* AttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				9F2A8C9AEC02BA475AA5C0DEBE3CDA5E /* AttributedString */,
-				025B4DBDDD39EFC3245680AC208C3B49 /* Decorator */,
+				EB13B983E3501AB9F836F53C97E745FE /* LTStringAttributes.h */,
+				68C8309230EDCFDEFE69C48727B02A17 /* LTStringAttributes.m */,
+				A7FF2BB7E2C6940F44AC5AE1EF0D99E4 /* NSAttributedString+LTStyle.h */,
+				531370E128F0F7A12F9FB86AC593B621 /* NSAttributedString+LTStyle.m */,
 			);
-			path = Public;
+			name = AttributedString;
+			path = AttributedString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4FA6A899973BA20FB79E7663EA9D8A1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68508317FD18BE057C04CDF1575E42E6 /* LTStringAttributes.h in Headers */,
+				F00B1AA877A631BBC74ABEEC271FF0F1 /* LTStyle-umbrella.h in Headers */,
+				FBA19CA92494A0B7C8CE531F4EACD70C /* LTUIButtonDecorations.h in Headers */,
+				5A19D5C8B3E974D898110CB78A83E5EB /* LTUIButtonDecorations_Private.h in Headers */,
+				4EA988155DB3F6CDDDE8EB083B473DAF /* LTUIButtonDecorator.h in Headers */,
+				22EB922994E481755E11E1859DDAD62E /* LTUIControlDecorations.h in Headers */,
+				E39E186DF896A52F3B5247003662D266 /* LTUIControlDecorator.h in Headers */,
+				CECCAE9A9F70844EF59C4A003A2558EB /* LTUIImageViewDecorations.h in Headers */,
+				E323F9B0DBBF81FA98D6FC9174129920 /* LTUIImageViewDecorator.h in Headers */,
+				083836E3A2A3EDEE786ADE1ADB75B9BA /* LTUILabelDecorations.h in Headers */,
+				229F12FD380BC4DD043A2663284C5638 /* LTUILabelDecorator.h in Headers */,
+				4BA1AA249F74F133C7D70C245C3F4E53 /* LTUITextFieldDecorations.h in Headers */,
+				AA98386014F4F4C06EE9D0CBE0D8C1F2 /* LTUITextFieldDecorator.h in Headers */,
+				A4204524A63C84855AE821CD643B264A /* LTUITextViewDecorations.h in Headers */,
+				339C94B64856F7779C0619BDA44AF3EA /* LTUITextViewDecorator.h in Headers */,
+				3484EBFBC11336E984FA9894EED9810A /* LTUIViewDecorations.h in Headers */,
+				C50B3CDBB615886461D879479C3B04D4 /* LTUIViewDecorator.h in Headers */,
+				2A407C6AE8DEEFB9CE02C2B1A258260E /* LTUIViewDecorator_Private.h in Headers */,
+				B24E5EA0304DE12AF60AAB4BAC93BA26 /* NSAttributedString+LTStyle.h in Headers */,
+				95140C53B1BEA709E9F2061B3293AD8D /* UIButton+LTDecorations.h in Headers */,
+				0A3BB9B9F68B0873BF7E3F407D0BC6EC /* UIControl+LTDecorations.h in Headers */,
+				FDDF4148DE7258B11BDC6E93585E9E3D /* UIImageView+LTDecorations.h in Headers */,
+				AF69A88096C50028C34265E063C8A011 /* UILabel+LTDecorations.h in Headers */,
+				E35D8059E8FB0E68F589D9D89DDD350C /* UITextField+LTDecorations.h in Headers */,
+				07FE614AE346C24980A3B1A66C89954E /* UITextView+LTDecorations.h in Headers */,
+				D26E3CFBFF3D6DB60E74855322752381 /* UIView+LTDecorations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52D657813DF5884A06712B2E4D34B92D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1048,39 +1144,6 @@
 				2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */,
 				86365A8DEDA7C9315120DED5EC7F23DC /* XCTest+Private.h in Headers */,
 				03890D59600D45E6E9463700F9B11FFE /* XCTestCase+Specta.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		796C5461E7BCB80BC4703801A1B35561 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9B604C158EB45CA5EF7B0B7008ECB66 /* LTStringAttributes.h in Headers */,
-				2DCC77E6D13F922EF7D06961691DAB83 /* LTStyle-umbrella.h in Headers */,
-				97B278BD3AF4723F35DFDD94B58BCD4D /* LTUIButtonDecorations.h in Headers */,
-				D1CEB28C2F6DBC67B44FD72B08E25B38 /* LTUIButtonDecorator.h in Headers */,
-				4D52ADB4BEAEFA5BCC843314C8DE5694 /* LTUIControlDecorations.h in Headers */,
-				4ACDB74DC2672498CBD3725DB33FD30D /* LTUIControlDecorator.h in Headers */,
-				A269C0C9FAE7F351E2BD624C66AB029F /* LTUIImageViewDecorations.h in Headers */,
-				A88756E254FFE5D325BB12F69BDC4863 /* LTUIImageViewDecorator.h in Headers */,
-				B772851EBA98258DF60B5754A7A3F07D /* LTUILabelDecorations.h in Headers */,
-				B2306DB20C45565A1E7A2543772E6C51 /* LTUILabelDecorator.h in Headers */,
-				1B43BE7052B52B7DD313B22B62DAE16D /* LTUITextFieldDecorations.h in Headers */,
-				6EEC969A04115D2B1E94523AD2C75B32 /* LTUITextFieldDecorator.h in Headers */,
-				8D4E4B21BA719D35B2D7DA979D53855F /* LTUITextViewDecorations.h in Headers */,
-				E452FAC9022E68F83AF1754B6A2AE7BC /* LTUITextViewDecorator.h in Headers */,
-				608802A277131E81B04C19741756D2E7 /* LTUIViewDecorations.h in Headers */,
-				861727B2E96095A41C590982C42B8DC2 /* LTUIViewDecorator.h in Headers */,
-				872665C042339D1685D9EEEAD524CC63 /* LTUIViewDecorator_Private.h in Headers */,
-				875BBA76ABCD31977B1C0ED2F461632D /* NSAttributedString+LTStyle.h in Headers */,
-				1167DBED550AC31F57C83F3DB6B50C75 /* UIButton+LTDecorations.h in Headers */,
-				1FC45584350F548161ED3C4FDBCE304E /* UIControl+LTDecorations.h in Headers */,
-				6428AB09F47FC5F24C85E106A98C5E5E /* UIImageView+LTDecorations.h in Headers */,
-				14499DF25AF206555D91FC9842F6B4B0 /* UILabel+LTDecorations.h in Headers */,
-				6D8616EA7C3455BF2E2E9FFC0099AD16 /* UITextField+LTDecorations.h in Headers */,
-				C6339833F74E7E05397B518A9F0EA03D /* UITextView+LTDecorations.h in Headers */,
-				3A20AA971ED3856300E38F44 /* LTUIButtonDecorations_Private.h in Headers */,
-				BC01DD3EAFC5406A1B3031DC9A4A2A00 /* UIView+LTDecorations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1192,23 +1255,6 @@
 			productReference = 7B4098E6E4C4CD5A15C6870E65F63ACD /* Specta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		42473AA564FB5528EBB2EE8F0A331F6A /* LTStyle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1542B39731C93D426161DECE99741FFB /* Build configuration list for PBXNativeTarget "LTStyle" */;
-			buildPhases = (
-				20054EED0D0F405418ECD84BC2CDD8A3 /* Sources */,
-				2428F77B9A9FEBA17F65A58D08117576 /* Frameworks */,
-				796C5461E7BCB80BC4703801A1B35561 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LTStyle;
-			productName = LTStyle;
-			productReference = 282ADBED14CDDDDBCB6F4BE788414FA4 /* LTStyle.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		43B4328BE2658A2D70D7850B7192FA21 /* Pods-LTStyle_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B0E26521C7DB607EB9A05282E8A7620 /* Build configuration list for PBXNativeTarget "Pods-LTStyle_Tests" */;
@@ -1263,6 +1309,23 @@
 			name = "Pods-LTStyle_Example";
 			productName = "Pods-LTStyle_Example";
 			productReference = DDE789C734D7FA0017007FAB0DCC75F4 /* Pods_LTStyle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3D40FF6F8CB49AFC6950199FC9078B5 /* LTStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7419035ACF2B27A3C7A915D61D68A879 /* Build configuration list for PBXNativeTarget "LTStyle" */;
+			buildPhases = (
+				9BB9B784EDDA8C4427E32FEEE39BB5A5 /* Sources */,
+				1C96F9F88B509C98D83D8E4777C3DBBF /* Frameworks */,
+				4FA6A899973BA20FB79E7663EA9D8A1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTStyle;
+			productName = LTStyle;
+			productReference = 282ADBED14CDDDDBCB6F4BE788414FA4 /* LTStyle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D3054FB7F84727519F50B6AD1E49531E /* FBSnapshotTestCase */ = {
@@ -1326,7 +1389,7 @@
 				5D161BA711701D7E41E02A5702FD024E /* Expecta */,
 				E427C6DCA153E01C52C89563011E9C39 /* Expecta+Snapshots */,
 				D3054FB7F84727519F50B6AD1E49531E /* FBSnapshotTestCase */,
-				42473AA564FB5528EBB2EE8F0A331F6A /* LTStyle */,
+				A3D40FF6F8CB49AFC6950199FC9078B5 /* LTStyle */,
 				83C724432060D106D39AF427AB3A9A3A /* Pods-LTStyle_Example */,
 				43B4328BE2658A2D70D7850B7192FA21 /* Pods-LTStyle_Tests */,
 				21B910E0FB008FE15458D3D9B59BED16 /* Specta */,
@@ -1340,37 +1403,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A6AACE57AD9E173061836A074161FA /* Pods-LTStyle_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20054EED0D0F405418ECD84BC2CDD8A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83475A7BEF15F0A397368F3B75640B72 /* LTStringAttributes.m in Sources */,
-				990F6E8063513F66715583A265AF6683 /* LTStyle-dummy.m in Sources */,
-				59A96B8DD1CB1061FBE5DBAF6F25B417 /* LTUIButtonDecorations.m in Sources */,
-				5AC714E834C1110177ABA04ACED05D22 /* LTUIButtonDecorator.m in Sources */,
-				01449DBE029FBB3EA0BECAC7E94E94CB /* LTUIControlDecorations.m in Sources */,
-				764E9F2A55E446CA22DA1ECB948C572D /* LTUIControlDecorator.m in Sources */,
-				956493AAE604C82E15360777CCCB3365 /* LTUIImageViewDecorations.m in Sources */,
-				D01FA54F2C32F3B21E62532FB0219160 /* LTUIImageViewDecorator.m in Sources */,
-				1321335614E857C11497CCD742D66F53 /* LTUILabelDecorations.m in Sources */,
-				1E4085EDE35CCBCBD92A2D36921807FD /* LTUILabelDecorator.m in Sources */,
-				592B171651FCFD65BE248A6E75CD5DB7 /* LTUITextFieldDecorations.m in Sources */,
-				BB8360A29FEDBE3B2D3057576660BA9A /* LTUITextFieldDecorator.m in Sources */,
-				5890438F2807CF98CA00EDB11657CF0F /* LTUITextViewDecorations.m in Sources */,
-				CEE6B0EBC6B09F0BA14681E0D3B778BB /* LTUITextViewDecorator.m in Sources */,
-				4C46940AEFC620E38505ECFA552AFBF0 /* LTUIViewDecorations.m in Sources */,
-				E3145D618F0A10BA8FBA5907A4ABB817 /* LTUIViewDecorator.m in Sources */,
-				CFF70A8ADEF50009A785E4B16D73B562 /* NSAttributedString+LTStyle.m in Sources */,
-				7C2657BAA206413F0B3511C7FD08BA9A /* UIButton+LTDecorations.m in Sources */,
-				4C3DED42F983549AA628EB638DE44680 /* UIControl+LTDecorations.m in Sources */,
-				2F177DF3DCE754ED05E7398635F76C7C /* UIImageView+LTDecorations.m in Sources */,
-				9BF5E680FD142E4E1D50201658F8D37D /* UILabel+LTDecorations.m in Sources */,
-				DEFE1B1803248B7D78C14D1A0A90AE7F /* UITextField+LTDecorations.m in Sources */,
-				0FC59DAA6DFF27DF0C57F83AD7214596 /* UITextView+LTDecorations.m in Sources */,
-				68FD6DEE3BA7BEF290DFABF52EFB2E49 /* UIView+LTDecorations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1405,6 +1437,37 @@
 				FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */,
 				20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */,
 				7F1209D2DD89FBCDABDA3CDBB0DDB49D /* XCTestCase+Specta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB9B784EDDA8C4427E32FEEE39BB5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A7810890A6CD379E247441CA1AB21B /* LTStringAttributes.m in Sources */,
+				F5563E571ADBEBB26E570D78ECA39E9D /* LTStyle-dummy.m in Sources */,
+				6EBE0FC2CEE97E3675FFB5B3E4F6CA05 /* LTUIButtonDecorations.m in Sources */,
+				2F26608B98E3653B67EE72134BCFAC63 /* LTUIButtonDecorator.m in Sources */,
+				005539A61788D423F3731622F0B66402 /* LTUIControlDecorations.m in Sources */,
+				AA070365E9E6FD0C9BE936351AC7A0B1 /* LTUIControlDecorator.m in Sources */,
+				7A4A28B4B00A0F5F16DFABCA32C60999 /* LTUIImageViewDecorations.m in Sources */,
+				C24D0DDE93B4D05F79CFC9DAAA8BECE8 /* LTUIImageViewDecorator.m in Sources */,
+				492FC085A8C0572E25EE46F06A51681E /* LTUILabelDecorations.m in Sources */,
+				E9FD6759B3F8295428352CAC5949F2E1 /* LTUILabelDecorator.m in Sources */,
+				E300441AE2BEB1A5C921C495D6AD0E86 /* LTUITextFieldDecorations.m in Sources */,
+				76D4B2AD2F4B72361FFB227379E38069 /* LTUITextFieldDecorator.m in Sources */,
+				F71CBD8A1202E9987312B6E450FD0367 /* LTUITextViewDecorations.m in Sources */,
+				567F28AE4B5552C4D7B9AE78706AEA2E /* LTUITextViewDecorator.m in Sources */,
+				93BCC439D62AB15BB8647A4E78EAEE4E /* LTUIViewDecorations.m in Sources */,
+				3839B4A5CE9F446AB5F883AD6301BBE4 /* LTUIViewDecorator.m in Sources */,
+				91ED51526FF6D8745883FA98459DE6F3 /* NSAttributedString+LTStyle.m in Sources */,
+				14BC698F98F5120FD2FE5AE5AFCE5DE5 /* UIButton+LTDecorations.m in Sources */,
+				723C27F450D7FF56C5E5609BF68D7EBF /* UIControl+LTDecorations.m in Sources */,
+				DE4E37D0F684BE7E15280269C2BDDEAC /* UIImageView+LTDecorations.m in Sources */,
+				6CE1979338ECCDF47FA6244A277E01EA /* UILabel+LTDecorations.m in Sources */,
+				79FE689B3B54D2D19BAA6235F778C3D6 /* UITextField+LTDecorations.m in Sources */,
+				F6E5ECE0162EB8A32FBB73FF967FCBDF /* UITextView+LTDecorations.m in Sources */,
+				36CAF490622805DBE7533E376CA56C99 /* UIView+LTDecorations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1486,7 +1549,7 @@
 		74F4C49D3123685835F3F4AD1B1536CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTStyle;
-			target = 42473AA564FB5528EBB2EE8F0A331F6A /* LTStyle */;
+			target = A3D40FF6F8CB49AFC6950199FC9078B5 /* LTStyle */;
 			targetProxy = 68F18E173E83DA8A23FBC36EF8C331B7 /* PBXContainerItemProxy */;
 		};
 		80C98B2FB02775C000834DD42683FC05 /* PBXTargetDependency */ = {
@@ -1522,38 +1585,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01B041570612AADC986042B9D31C31AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 210528DF81ED4CE099B62A18E2CD6F09 /* LTStyle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LTStyle/LTStyle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTStyle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LTStyle/LTStyle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LTStyle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		21D05DFA6E36FDE973E34FC94BB254E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65151D31448276A43462B5C47014D6AB /* FBSnapshotTestCase.xcconfig */;
@@ -1816,38 +1847,6 @@
 			};
 			name = Debug;
 		};
-		74859DC47D453C1DAB0B950C1F0B864A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 210528DF81ED4CE099B62A18E2CD6F09 /* LTStyle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LTStyle/LTStyle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTStyle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LTStyle/LTStyle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LTStyle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		8862CF2896A8E4B000886D43F363E129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 581C5F5012EB4722B076757D7F522B51 /* Specta.xcconfig */;
@@ -1872,6 +1871,38 @@
 				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Specta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		957BF523C200FE6A6BB602645AD030A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DC18CF51CC06E77826C2C24C83D481 /* LTStyle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTStyle/LTStyle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTStyle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTStyle/LTStyle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTStyle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1992,6 +2023,38 @@
 			};
 			name = Debug;
 		};
+		C97D4DD537F693240C9C121C6B64D32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DC18CF51CC06E77826C2C24C83D481 /* LTStyle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTStyle/LTStyle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTStyle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTStyle/LTStyle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTStyle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EC7AA00027434B6C060D01B5C0E834D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A193DEFA4D1CD24BE0FE7815E44EC372 /* Expecta.xcconfig */;
@@ -2109,15 +2172,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1542B39731C93D426161DECE99741FFB /* Build configuration list for PBXNativeTarget "LTStyle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01B041570612AADC986042B9D31C31AC /* Debug */,
-				74859DC47D453C1DAB0B950C1F0B864A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2150,6 +2204,15 @@
 			buildConfigurations = (
 				9585C72D7F2147F90EC2397B8ECB3CF2 /* Debug */,
 				F07D9F2E5C5E10570DBE05957B84C476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7419035ACF2B27A3C7A915D61D68A879 /* Build configuration list for PBXNativeTarget "LTStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BF523C200FE6A6BB602645AD030A0 /* Debug */,
+				C97D4DD537F693240C9C121C6B64D32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
