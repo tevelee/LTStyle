@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C50477FC182D6B3E969AA952CFD66C76'
+               BlueprintIdentifier = '42473AA564FB5528EBB2EE8F0A331F6A'
                BlueprintName = 'LTStyle'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LTStyle.framework'>

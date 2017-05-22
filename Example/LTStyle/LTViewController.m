@@ -8,7 +8,7 @@
 
 #import "LTViewController.h"
 #import <LTStyle/NSAttributedString+LTStyle.h>
-#import <LTStyle/LTUILabelDecorator.h>
+#import <LTStyle/UILabel+LTDecorations.h>
 
 @interface LTViewController ()
 
@@ -24,12 +24,12 @@
     if (self) {
         self.label = [UILabel new];
         
-        LTUILabelDecorator* decor = [LTUILabelDecorator new];
+        LTUILabelDecorations* decor = [LTUILabelDecorations new];
         [decor setNumberOfLines:0];
         [decor setBorderWidth:1];
         [decor setBorderColor:[UIColor blackColor]];
         [decor setCornerRadius:5];
-        [decor applyDecorationsOnView:self.label];
+        [self.label lt_applyDecorations:decor];
     }
     return self;
 }

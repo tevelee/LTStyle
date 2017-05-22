@@ -7,9 +7,8 @@
 //
 
 #import "LTUIViewDecorator.h"
+#import "LTUIImageViewDecorations.h"
 
-@interface LTUIImageViewDecorator : LTUIViewDecorator<UIImageView*> <NSCopying>
-
-@property (nonatomic, strong) UIImage *image;
+@interface LTUIImageViewDecorator : LTUIViewDecorator<UIImageView*, LTUIImageViewDecorations*>
 
 @end

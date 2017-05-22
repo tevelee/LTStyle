@@ -7,65 +7,42 @@
 //
 
 #import "LTUILabelDecorator.h"
+#import "LTUIViewDecorator_Private.h"
 
 @implementation LTUILabelDecorator
 
-- (instancetype)init
+#pragma mark - Decorations
+
+#pragma mark Get
+
++ (LTUILabelDecorations*)decorationsFromView:(UILabel*)label
 {
-    self = [super init];
-    if (self)
-    {
-        self.numberOfLines = 1;
-        self.lineBreakMode = NSLineBreakByTruncatingTail;
-        self.textAlignment = NSTextAlignmentLeft;
-    }
-    return self;
+    LTUILabelDecorations* decorations = [super decorationsFromView:label];
+    
+    decorations.text = label.text;
+    decorations.attributedText = label.attributedText;
+    decorations.font = label.font;
+    decorations.textColor = label.textColor;
+    decorations.lineBreakMode = label.lineBreakMode;
+    decorations.textAlignment = label.textAlignment;
+    decorations.numberOfLines = label.numberOfLines;
+
+    return decorations;
 }
 
-- (instancetype)initWithView:(UILabel *)label
+#pragma mark Set
+
++ (void)applyDecorations:(LTUILabelDecorations*)decorations onView:(UILabel*)label
 {
-    self = [super initWithView:label];
-    if (self)
-    {
-        self.text = label.text;
-        self.attributedText = label.attributedText;
-        self.font = label.font;
-        self.textColor = label.textColor;
-        self.lineBreakMode = label.lineBreakMode;
-        self.textAlignment = label.textAlignment;
-        self.numberOfLines = label.numberOfLines;
-    }
-    return self;
-}
-
-- (void)applyDecorationsOnView:(UILabel *)label
-{
-    [super applyDecorationsOnView:label];
-
-    label.text = self.text;
-    label.attributedText = self.attributedText;
-    label.font = self.font;
-    label.textColor = self.textColor;
-    label.lineBreakMode = self.lineBreakMode;
-    label.textAlignment = self.textAlignment;
-    label.numberOfLines = self.numberOfLines;
-}
-
-#pragma mark - NSCopying
-
-- (id)copyWithZone:(NSZone *)zone
-{
-    LTUILabelDecorator *copy = [super copyWithZone:zone];
-
-    copy.text = self.text;
-    copy.attributedText = self.attributedText;
-    copy.font = self.font.copy;
-    copy.textColor = self.textColor.copy;
-    copy.lineBreakMode = self.lineBreakMode;
-    copy.textAlignment = self.textAlignment;
-    copy.numberOfLines = self.numberOfLines;
-
-    return copy;
+    [super applyDecorations:decorations onView:label];
+    
+    label.text = decorations.text;
+    label.attributedText = decorations.attributedText;
+    label.font = decorations.font;
+    label.textColor = decorations.textColor;
+    label.lineBreakMode = decorations.lineBreakMode;
+    label.textAlignment = decorations.textAlignment;
+    label.numberOfLines = decorations.numberOfLines;
 }
 
 @end

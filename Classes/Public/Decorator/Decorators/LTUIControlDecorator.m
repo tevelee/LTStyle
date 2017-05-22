@@ -7,57 +7,32 @@
 //
 
 #import "LTUIControlDecorator.h"
+#import "LTUIViewDecorator_Private.h"
 
 @implementation LTUIControlDecorator
 
-- (instancetype)init
++ (LTUIControlDecorations*)decorationsFromView:(UIControl*)control
 {
-    self = [super init];
-    if (self)
-    {
-        self.enabled = YES;
-    }
-    return self;
+    LTUIControlDecorations* decorations = [super decorationsFromView:control];
+    
+    decorations.enabled = control.isEnabled;
+    decorations.selected = control.isSelected;
+    decorations.highlighted = control.isHighlighted;
+    decorations.contentVerticalAlignment = control.contentVerticalAlignment;
+    decorations.contentHorizontalAlignment = control.contentHorizontalAlignment;
+    
+    return decorations;
 }
 
-- (instancetype)initWithView:(UIControl *)control
++ (void)applyDecorations:(LTUIControlDecorations*)decorations onView:(UIControl*)control
 {
-    self = [super initWithView:control];
-    if (self)
-    {
-        self.enabled = control.isEnabled;
-        self.selected = control.isSelected;
-        self.highlighted = control.isHighlighted;
-        self.contentVerticalAlignment = control.contentVerticalAlignment;
-        self.contentHorizontalAlignment = control.contentHorizontalAlignment;
-    }
-    return self;
-}
+    [super applyDecorations:decorations onView:control];
 
-- (void)applyDecorationsOnView:(UIControl *)control
-{
-    [super applyDecorationsOnView:control];
-
-    control.enabled = self.isEnabled;
-    control.selected = self.isSelected;
-    control.highlighted = self.isHighlighted;
-    control.contentVerticalAlignment = self.contentVerticalAlignment;
-    control.contentHorizontalAlignment = self.contentHorizontalAlignment;
-}
-
-#pragma mark - NSCopying
-
-- (id)copyWithZone:(NSZone *)zone
-{
-    LTUIControlDecorator *copy = [super copyWithZone:zone];
-
-    copy.enabled = self.isEnabled;
-    copy.selected = self.isSelected;
-    copy.highlighted = self.isHighlighted;
-    copy.contentVerticalAlignment = self.contentVerticalAlignment;
-    copy.contentHorizontalAlignment = self.contentHorizontalAlignment;
-
-    return copy;
+    control.enabled = decorations.isEnabled;
+    control.selected = decorations.isSelected;
+    control.highlighted = decorations.isHighlighted;
+    control.contentVerticalAlignment = decorations.contentVerticalAlignment;
+    control.contentHorizontalAlignment = decorations.contentHorizontalAlignment;
 }
 
 @end

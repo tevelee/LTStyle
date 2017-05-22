@@ -7,13 +7,8 @@
 //
 
 #import "LTUIViewDecorator.h"
+#import "LTUIControlDecorations.h"
 
-@interface LTUIControlDecorator <__covariant ControlType: UIControl*> : LTUIViewDecorator<ControlType> <NSCopying>
-
-@property (nonatomic, assign, getter=isEnabled) BOOL enabled;
-@property (nonatomic, assign, getter=isSelected) BOOL selected;
-@property (nonatomic, assign, getter=isHighlighted) BOOL highlighted;
-@property (nonatomic, assign) UIControlContentVerticalAlignment contentVerticalAlignment;
-@property (nonatomic, assign) UIControlContentHorizontalAlignment contentHorizontalAlignment;
+@interface LTUIControlDecorator <__covariant ControlType : UIControl*, __covariant DecorationsType : LTUIControlDecorations*> : LTUIViewDecorator<ControlType, DecorationsType>
 
 @end

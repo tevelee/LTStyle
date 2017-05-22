@@ -7,94 +7,56 @@
 //
 
 #import "LTUITextFieldDecorator.h"
+#import "LTUIViewDecorator_Private.h"
 
 @implementation LTUITextFieldDecorator
 
-- (instancetype)init
++ (LTUITextFieldDecorations*)decorationsFromView:(UITextField*)textField
 {
-    self = [super init];
-    if (self)
-    {
-        self.textAlignment = NSTextAlignmentLeft;
-        self.borderStyle = UITextBorderStyleNone;
-    }
-    return self;
+    LTUITextFieldDecorations* decorations = [LTUITextFieldDecorations new];
+    
+    decorations.text = textField.text;
+    decorations.attributedText = textField.attributedText;
+    decorations.textColor = textField.textColor;
+    decorations.font = textField.font;
+    decorations.textAlignment = textField.textAlignment;
+    decorations.borderStyle = textField.borderStyle;
+    decorations.defaultTextAttributes = textField.defaultTextAttributes;
+    decorations.typingAttributes = textField.typingAttributes;
+    decorations.clearsOnBeginEditing = textField.clearsOnBeginEditing;
+    decorations.background = textField.background;
+    decorations.disabledBackground = textField.disabledBackground;
+    decorations.allowsEditingTextAttributes = textField.allowsEditingTextAttributes;
+    decorations.leftView = textField.leftView;
+    decorations.rightView = textField.rightView;
+    decorations.leftViewMode = textField.leftViewMode;
+    decorations.rightViewMode = textField.rightViewMode;
+    decorations.clearButtonMode = textField.clearButtonMode;
+
+    return decorations;
 }
 
-- (instancetype)initWithView:(UITextField *)textField
++ (void)applyDecorations:(LTUITextFieldDecorations*)decorations onView:(UITextField*)textField
 {
-    self = [super initWithView:textField];
-    if (self)
-    {
-        self.text = textField.text;
-        self.attributedText = textField.attributedText;
-        self.textColor = textField.textColor;
-        self.font = textField.font;
-        self.textAlignment = textField.textAlignment;
-        self.borderStyle = textField.borderStyle;
-        self.defaultTextAttributes = textField.defaultTextAttributes;
-        self.typingAttributes = textField.typingAttributes;
-        self.clearsOnBeginEditing = textField.clearsOnBeginEditing;
-        self.background = textField.background;
-        self.disabledBackground = textField.disabledBackground;
-        self.allowsEditingTextAttributes = textField.allowsEditingTextAttributes;
-        self.leftView = textField.leftView;
-        self.rightView = textField.rightView;
-        self.leftViewMode = textField.leftViewMode;
-        self.rightViewMode = textField.rightViewMode;
-        self.clearButtonMode = textField.clearButtonMode;
-    }
-    return self;
-}
-
-- (void)applyDecorationsOnView:(UITextField *)textField
-{
-    [super applyDecorationsOnView:textField];
-
-    textField.text = self.text;
-    textField.attributedText = self.attributedText;
-    textField.textColor = self.textColor;
-    textField.font = self.font;
-    textField.textAlignment = self.textAlignment;
-    textField.borderStyle = self.borderStyle;
-    textField.defaultTextAttributes = self.defaultTextAttributes;
-    textField.typingAttributes = self.typingAttributes;
-    textField.clearsOnBeginEditing = self.clearsOnBeginEditing;
-    textField.background = self.background;
-    textField.disabledBackground = self.disabledBackground;
-    textField.allowsEditingTextAttributes = self.allowsEditingTextAttributes;
-    textField.leftView = self.leftView;
-    textField.rightView = self.rightView;
-    textField.leftViewMode = self.leftViewMode;
-    textField.rightViewMode = self.rightViewMode;
-    textField.clearButtonMode = self.clearButtonMode;
-}
-
-#pragma mark - NSCopying
-
-- (id)copyWithZone:(NSZone *)zone
-{
-    LTUITextFieldDecorator *copy = [super copyWithZone:zone];
-
-    copy.text = self.text;
-    copy.attributedText = self.attributedText;
-    copy.textColor = self.textColor.copy;
-    copy.font = self.font.copy;
-    copy.textAlignment = self.textAlignment;
-    copy.borderStyle = self.borderStyle;
-    copy.defaultTextAttributes = self.defaultTextAttributes.copy;
-    copy.typingAttributes = self.typingAttributes.copy;
-    copy.clearsOnBeginEditing = self.clearsOnBeginEditing;
-    copy.background = self.background.copy;
-    copy.disabledBackground = self.disabledBackground.copy;
-    copy.allowsEditingTextAttributes = self.allowsEditingTextAttributes;
-    copy.leftView = self.leftView;
-    copy.rightView = self.rightView;
-    copy.leftViewMode = self.leftViewMode;
-    copy.rightViewMode = self.rightViewMode;
-    copy.clearButtonMode = self.clearButtonMode;
-
-    return copy;
+    [super applyDecorations:decorations onView:textField];
+    
+    textField.text = decorations.text;
+    textField.attributedText = decorations.attributedText;
+    textField.textColor = decorations.textColor;
+    textField.font = decorations.font;
+    textField.textAlignment = decorations.textAlignment;
+    textField.borderStyle = decorations.borderStyle;
+    textField.defaultTextAttributes = decorations.defaultTextAttributes;
+    textField.typingAttributes = decorations.typingAttributes;
+    textField.clearsOnBeginEditing = decorations.clearsOnBeginEditing;
+    textField.background = decorations.background;
+    textField.disabledBackground = decorations.disabledBackground;
+    textField.allowsEditingTextAttributes = decorations.allowsEditingTextAttributes;
+    textField.leftView = decorations.leftView;
+    textField.rightView = decorations.rightView;
+    textField.leftViewMode = decorations.leftViewMode;
+    textField.rightViewMode = decorations.rightViewMode;
+    textField.clearButtonMode = decorations.clearButtonMode;
 }
 
 @end

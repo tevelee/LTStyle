@@ -7,35 +7,24 @@
 //
 
 #import "LTUIImageViewDecorator.h"
+#import "LTUIViewDecorator_Private.h"
 
 @implementation LTUIImageViewDecorator
 
-- (instancetype)initWithView:(UIImageView *)imageView
++ (LTUIImageViewDecorations*)decorationsFromView:(UIImageView*)imageView
 {
-    self = [super initWithView:imageView];
-    if (self)
-    {
-        self.image = imageView.image;
-    }
-    return self;
+    LTUIImageViewDecorations* decorations = [super decorationsFromView:imageView];
+    
+    decorations.image = imageView.image;
+    
+    return decorations;
 }
 
-- (void)applyDecorationsOnView:(UIImageView *)imageView
++ (void)applyDecorations:(LTUIImageViewDecorations*)decorations onView:(UIImageView*)imageView
 {
-    [super applyDecorationsOnView:imageView];
+    [super applyDecorations:decorations onView:imageView];
 
-    imageView.image = self.image;
-}
-
-#pragma mark - NSCopying
-
-- (id)copyWithZone:(NSZone *)zone
-{
-    LTUIImageViewDecorator *copy = [super copyWithZone:zone];
-
-    copy.image = self.image.copy;
-
-    return copy;
+    imageView.image = decorations.image;
 }
 
 @end

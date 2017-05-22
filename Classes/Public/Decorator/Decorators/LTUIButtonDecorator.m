@@ -7,225 +7,93 @@
 //
 
 #import "LTUIButtonDecorator.h"
+#import "LTUIViewDecorator_Private.h"
+#import "LTUIButtonDecorations_Private.h"
 
 @implementation LTUIButtonDecorator
+
++ (LTUIButtonDecorations*)decorationsFromView:(UIButton*)button
 {
-    NSMutableDictionary *_backgroundColorsForStates;
-    NSMutableDictionary *_backgroundImagesForStates;
-    NSMutableDictionary *_imagesForStates;
-    NSMutableDictionary *_titlesForStates;
-    NSMutableDictionary *_titleColorsForStates;
+    LTUIButtonDecorations* decorations = [super decorationsFromView:button];
+    
+    decorations.font = button.titleLabel.font;
+    decorations.contentEdgeInsets = button.contentEdgeInsets;
+    decorations.titleEdgeInsets = button.titleEdgeInsets;
+    decorations.imageEdgeInsets = button.imageEdgeInsets;
+    
+    [decorations.class forAllStates:^(UIControlState state) {
+        UIImage *image = [button backgroundImageForState:state];
+        if (image) {
+            [decorations setBackgroundImage:image forState:state];
+        }
+    }];
+    
+    [decorations.class forAllStates:^(UIControlState state) {
+        UIColor *color = [button titleColorForState:state];
+        if (color) {
+            [decorations setTitleColor:color forState:state];
+        }
+    }];
+    
+    [decorations.class forAllStates:^(UIControlState state) {
+        UIImage *image = [button imageForState:state];
+        if (image) {
+            [decorations setImage:image forState:state];
+        }
+    }];
+    
+    [decorations.class forAllStates:^(UIControlState state) {
+        NSString *title = [button titleForState:state];
+        if (title) {
+            [decorations setTitle:title forState:state];
+        }
+    }];
+    
+    return decorations;
 }
 
-- (instancetype)init
++ (void)applyDecorations:(LTUIButtonDecorations*)decorations onView:(UIButton*)button
 {
-    self = [super init];
-    if (self)
-    {
-        _backgroundColorsForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _backgroundImagesForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _imagesForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _titlesForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _titleColorsForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-    }
-    return self;
+    [super applyDecorations:decorations onView:button];
+    
+    button.titleLabel.font = decorations.font;
+    button.contentEdgeInsets = decorations.contentEdgeInsets;
+    button.titleEdgeInsets = decorations.titleEdgeInsets;
+    button.imageEdgeInsets = decorations.imageEdgeInsets;
+
+    for (NSNumber *state in decorations.backgroundImagesForStates)
+        [button setBackgroundImage:decorations.backgroundImagesForStates[state] forState:state.integerValue];
+
+    for (NSNumber *state in decorations.titleColorsForStates)
+        [button setTitleColor:decorations.titleColorsForStates[state] forState:state.integerValue];
+
+    for (NSNumber *state in decorations.imagesForStates)
+        [button setImage:decorations.imagesForStates[state] forState:state.integerValue];
+
+    for (NSNumber *state in decorations.titlesForStates)
+        [button setTitle:decorations.titlesForStates[state] forState:state.integerValue];
 }
 
 - (instancetype)initWithView:(UIButton *)button
 {
     self = [super initWithView:button];
-    if (self)
-    {
-        _backgroundColorsForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _backgroundImagesForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _imagesForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _titlesForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-        _titleColorsForStates = [NSMutableDictionary dictionaryWithCapacity:4];
-
-        self.font = button.titleLabel.font;
-        self.contentEdgeInsets = button.contentEdgeInsets;
-        self.titleEdgeInsets = button.titleEdgeInsets;
-        self.imageEdgeInsets = button.imageEdgeInsets;
-
-        __weak __typeof__(self) weakSelf = self;
-        [self forAllStates:^(UIControlState state) {
-            UIImage *image = [button backgroundImageForState:state];
-            if (image)
-            {
-                __typeof__(self) strongSelf = weakSelf;
-                strongSelf->_backgroundImagesForStates[@(state)] = image;
-            }
-        }];
-
-        [self forAllStates:^(UIControlState state) {
-            UIColor *color = [button titleColorForState:state];
-            if (color)
-            {
-                __typeof__(self) strongSelf = weakSelf;
-                strongSelf->_titleColorsForStates[@(state)] = color;
-            }
-        }];
-
-        [self forAllStates:^(UIControlState state) {
-            UIImage *image = [button imageForState:state];
-            if (image)
-            {
-                __typeof__(self) strongSelf = weakSelf;
-                strongSelf->_imagesForStates[@(state)] = image;
-            }
-        }];
-
-        [self forAllStates:^(UIControlState state) {
-            NSString *title = [button titleForState:state];
-            if (title)
-            {
-                __typeof__(self) strongSelf = weakSelf;
-                strongSelf->_titlesForStates[@(state)] = title;
-            }
-        }];
+    if (self) {
+        if (self.decorations.backgroundColorsForStates.count > 0)
+        {
+            [button addTarget:self action:@selector(buttonStateChanged:) forControlEvents:UIControlEventAllTouchEvents];
+            [self buttonStateChanged:button];
+        }
     }
     return self;
 }
 
-- (void)setTitleColor:(UIColor *)color forState:(UIControlState)state
-{
-    if (color == nil)
-        return;
-
-    _titleColorsForStates[@(state)] = color;
-}
-
-- (void)setImage:(UIImage *)image forState:(UIControlState)state
-{
-    if (image == nil)
-        return;
-
-    _imagesForStates[@(state)] = image;
-}
-
-- (void)setTitle:(NSString *)title forState:(UIControlState)state
-{
-    if (title == nil)
-        return;
-
-    _titlesForStates[@(state)] = title;
-}
-
-- (void)setBackgroundImage:(UIImage *)image forState:(UIControlState)state
-{
-    if (image == nil)
-        return;
-
-    _backgroundImagesForStates[@(state)] = image;
-}
-
-- (void)setBackgroundColor:(UIColor *)color forState:(UIControlState)state
-{
-    if (color == nil)
-        return;
-
-    _backgroundColorsForStates[@(state)] = color;
-}
-
-- (void)setTitleColorForAllStates:(UIColor *)titleColorForAllStates
-{
-    _titleColorForAllStates = titleColorForAllStates;
-
-    [self forAllStates:^(UIControlState state) {
-        [self setTitleColor:titleColorForAllStates forState:state];
-    }];
-}
-
-- (void)setImageForAllStates:(UIImage *)imageForAllStates
-{
-    _imageForAllStates = imageForAllStates;
-
-    [self forAllStates:^(UIControlState state) {
-        [self setImage:imageForAllStates forState:state];
-    }];
-}
-
-- (void)setTitleForAllStates:(NSString *)titleForAllStates
-{
-    _titleForAllStates = titleForAllStates;
-
-    [self forAllStates:^(UIControlState state) {
-        [self setTitle:titleForAllStates forState:state];
-    }];
-}
-
-- (void)setBackgroundImageForAllStates:(UIImage *)backgroundImageForAllStates
-{
-    _backgroundImageForAllStates = backgroundImageForAllStates;
-
-    [self forAllStates:^(UIControlState state) {
-        [self setBackgroundImage:backgroundImageForAllStates forState:state];
-    }];
-}
-
-- (void)forAllStates:(void (^)(UIControlState))block
-{
-    if (block == nil)
-        return;
-
-    block(UIControlStateNormal);
-    block(UIControlStateSelected);
-    block(UIControlStateHighlighted);
-    block(UIControlStateDisabled);
-}
-
-- (void)applyDecorationsOnView:(UIButton *)button
-{
-    [super applyDecorationsOnView:button];
-
-    button.titleLabel.font = self.font;
-    button.contentEdgeInsets = self.contentEdgeInsets;
-    button.titleEdgeInsets = self.titleEdgeInsets;
-    button.imageEdgeInsets = self.imageEdgeInsets;
-
-    for (NSNumber *state in _backgroundImagesForStates)
-        [button setBackgroundImage:_backgroundImagesForStates[state] forState:state.integerValue];
-
-    for (NSNumber *state in _titleColorsForStates)
-        [button setTitleColor:_titleColorsForStates[state] forState:state.integerValue];
-
-    for (NSNumber *state in _imagesForStates)
-        [button setImage:_imagesForStates[state] forState:state.integerValue];
-
-    for (NSNumber *state in _titlesForStates)
-        [button setTitle:_titlesForStates[state] forState:state.integerValue];
-
-    if (_backgroundColorsForStates.count > 0)
-    {
-        [button addTarget:self action:@selector(buttonStateChanged:) forControlEvents:UIControlEventAllTouchEvents];
-        [self buttonStateChanged:button];
-    }
-}
-
 - (void)buttonStateChanged:(UIButton *)button
 {
-    UIColor *color = _backgroundColorsForStates[@(button.state)] ?: _backgroundColorsForStates[@(UIControlStateNormal)];
-    if (color)
+    NSDictionary* backgroundColorsForStates = self.decorations.backgroundColorsForStates;
+    UIColor *color = backgroundColorsForStates[@(button.state)] ?: backgroundColorsForStates[@(UIControlStateNormal)];
+    if (color) {
         [button setBackgroundColor:color];
-}
-
-#pragma mark - NSCopying
-
-- (id)copyWithZone:(NSZone *)zone
-{
-    LTUIButtonDecorator *copy = [super copyWithZone:zone];
-
-    copy.font = self.font.copy;
-    copy.contentEdgeInsets = self.contentEdgeInsets;
-    copy.titleEdgeInsets = self.titleEdgeInsets;
-    copy.imageEdgeInsets = self.imageEdgeInsets;
-    copy->_backgroundImagesForStates = _backgroundImagesForStates.mutableCopy;
-    copy->_titleColorsForStates = _titleColorsForStates.mutableCopy;
-    copy->_imagesForStates = _imagesForStates.mutableCopy;
-    copy->_titlesForStates = _titlesForStates.mutableCopy;
-    copy->_backgroundColorsForStates = _backgroundColorsForStates.mutableCopy;
-
-    return copy;
+    }
 }
 
 @end
